@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */; };
 		9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BD11DAF5ABB0034D244 /* ViewController.swift */; };
-		9F399BD51DAF5ABB0034D244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD31DAF5ABB0034D244 /* Main.storyboard */; };
 		9F399BD71DAF5ABB0034D244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD61DAF5ABB0034D244 /* Assets.xcassets */; };
 		9F399BDA1DAF5ABB0034D244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */; };
 		9F399BE51DAF5ABB0034D244 /* Swift_TimeMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BE41DAF5ABB0034D244 /* Swift_TimeMovieTests.swift */; };
 		9F399BF01DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BEF1DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift */; };
+		9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BFD1DAF5BC40034D244 /* MainViewController.swift */; };
+		9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C001DAF60170034D244 /* BaseNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,6 @@
 		9F399BCC1DAF5ABB0034D244 /* Swift-TimeMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-TimeMovie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F399BD11DAF5ABB0034D244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F399BD41DAF5ABB0034D244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F399BD61DAF5ABB0034D244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F399BD91DAF5ABB0034D244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F399BDB1DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		9F399BEB1DAF5ABB0034D244 /* Swift-TimeMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TimeMovieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BEF1DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TimeMovieUITests.swift; sourceTree = "<group>"; };
 		9F399BF11DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F399BFD1DAF5BC40034D244 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9F399C001DAF60170034D244 /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */,
+				9F399BFD1DAF5BC40034D244 /* MainViewController.swift */,
 				9F399BD11DAF5ABB0034D244 /* ViewController.swift */,
-				9F399BD31DAF5ABB0034D244 /* Main.storyboard */,
+				9F399BFF1DAF5F750034D244 /* Base */,
 				9F399BD61DAF5ABB0034D244 /* Assets.xcassets */,
 				9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */,
 				9F399BDB1DAF5ABB0034D244 /* Info.plist */,
@@ -123,6 +126,14 @@
 				9F399BF11DAF5ABB0034D244 /* Info.plist */,
 			);
 			path = "Swift-TimeMovieUITests";
+			sourceTree = "<group>";
+		};
+		9F399BFF1DAF5F750034D244 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9F399C001DAF60170034D244 /* BaseNavViewController.swift */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +204,6 @@
 				TargetAttributes = {
 					9F399BCB1DAF5ABB0034D244 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = GXJMB867PL;
 						ProvisioningStyle = Automatic;
 					};
 					9F399BDF1DAF5ABB0034D244 = {
@@ -237,7 +247,6 @@
 			files = (
 				9F399BDA1DAF5ABB0034D244 /* LaunchScreen.storyboard in Resources */,
 				9F399BD71DAF5ABB0034D244 /* Assets.xcassets in Resources */,
-				9F399BD51DAF5ABB0034D244 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
+				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */,
 				9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */,
 			);
@@ -299,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F399BD31DAF5ABB0034D244 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F399BD41DAF5ABB0034D244 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,7 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GXJMB867PL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swift-TimeMovie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovie";
@@ -428,7 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GXJMB867PL;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swift-TimeMovie/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovie";
