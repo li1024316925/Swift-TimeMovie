@@ -15,6 +15,7 @@
 		9F399BF01DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BEF1DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift */; };
 		9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BFD1DAF5BC40034D244 /* MainViewController.swift */; };
 		9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C001DAF60170034D244 /* BaseNavViewController.swift */; };
+		9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C021DAF66490034D244 /* LLQTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9F399BF11DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F399BFD1DAF5BC40034D244 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9F399C001DAF60170034D244 /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
+		9F399C021DAF66490034D244 /* LLQTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLQTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9F399C001DAF60170034D244 /* BaseNavViewController.swift */,
+				9F399C021DAF66490034D244 /* LLQTabBarController.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			files = (
 				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
+				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,
 				9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */,
 				9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */,
 			);
