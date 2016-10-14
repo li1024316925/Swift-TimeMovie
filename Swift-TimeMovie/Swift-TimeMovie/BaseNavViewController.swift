@@ -14,7 +14,7 @@ class BaseNavViewController: UINavigationController {
         super.viewDidLoad()
 
         //修改导航栏背景图片
-        navigationBar.setBackgroundImage(UIImage.animatedImageNamed("pic_title_bg.9", duration: 0), for: UIBarMetrics.default)
+        navigationBar.setBackgroundImage(UIImage.init(named: "pic_title_bg.9"), for: UIBarMetrics.default)
         
         //修改导航栏字体
         navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white,NSFontAttributeName:UIFont.systemFont(ofSize: 20)]

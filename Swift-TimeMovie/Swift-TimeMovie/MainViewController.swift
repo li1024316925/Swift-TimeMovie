@@ -15,16 +15,42 @@ class MainViewController: UIViewController {
 
         view.backgroundColor = UIColor.yellow
         
+        createMainViewContorller()
+        
     }
     
     func createMainViewContorller() -> Void {
         
         let imgNames = ["home","payticket","store","discover","myinfo"]
         //创建标签控制器数组存储标签控制器名
-        let viewContorllersArray = ["HomeViewContorller","PayTicketViewContorller","StoreViewContorller","DiscoverViewContorller","MyInfoViewContorller"]
+        let viewContorllersArray = ["HomeViewController","PayTicketViewController","StoreViewController","DiscoverViewController","MyInfoViewController"]
         
+        var bnvVcArray:[UIViewController] = []
         
+        for i in 0..<5 {
+            let str = viewContorllersArray[i]
+            //通过一个字符串创建控制器对象
+            //获取命名空间
+            let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
+            let uivcType = NSClassFromString(namespace + "." + str) as? UIViewController.Type
+            //可选绑定
+            if let type = uivcType {
+                //创建
+                let uiVC = type.init()
+                uiVC.tabBarItem.selectedImage = UIImage(named: imgNames[i] + "_on")
+                uiVC.tabBarItem.image = UIImage(named: imgNames[i])
+                let bnv = BaseNavViewController(rootViewController: uiVC)
+                bnvVcArray.append(bnv)
+            }
+        }
+       
+        let llqTbVC = LLQTabBarController()
+        llqTbVC.tabBar.selectionIndicatorImage = UIImage(named: "选中")
+        llqTbVC.tabBar.backgroundImage = UIImage(named: "tab_bg_all")
+        llqTbVC.viewControllers = bnvVcArray
         
+        //获取应用程序代理，设置根视图
+        (UIApplication.shared.delegate!.window!)!.rootViewController = llqTbVC
         
     }
     

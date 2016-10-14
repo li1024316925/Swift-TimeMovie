@@ -9,7 +9,7 @@
 import UIKit
 
 func kTabBarWidth(object: UITabBarController) -> CGFloat {return object.tabBar.frame.size.width}
-func kTabBarHeight(object: UITabBarController) -> CGFloat {return object.tabBar.frame.size.width}
+func kTabBarHeight(object: UITabBarController) -> CGFloat {return object.tabBar.frame.size.height}
 func kButtonWidth(object: UITabBarController) -> CGFloat {return kTabBarWidth(object: object)/CGFloat((object.viewControllers?.count)!)}
 
 class LLQTabBarController: UITabBarController {
@@ -29,16 +29,14 @@ class LLQTabBarController: UITabBarController {
         //如果没有选中图片，什么都不做，如果有添加为选中图片
         if selectionIndicatorImage == nil {
             return
-        }else{
-            selectImgV = UIImageView(image: selectionIndicatorImage)
-            selectImgV?.frame = CGRect(x: CGFloat(selectedIndex)*kButtonWidth(object: self), y: 0, width: kButtonWidth(object: self), height: kTabBarHeight(object: self))
-            tabBar.insertSubview(selectImgV!, at: 0)
-            
-            let selectButton = tabBarButtons[selectedIndex]
-            selectButton.isSelected = true
         }
         
+        selectImgV = UIImageView(image: selectionIndicatorImage)
+        selectImgV?.frame = CGRect(x: CGFloat(selectedIndex)*kButtonWidth(object: self), y: 0, width: kButtonWidth(object: self), height: kTabBarHeight(object: self))
+        tabBar.insertSubview(selectImgV!, at: 0)
         
+        let selectButton = tabBarButtons[selectedIndex]
+        selectButton.isSelected = true
         
     }
     
@@ -75,7 +73,9 @@ class LLQTabBarController: UITabBarController {
             button.addTarget(self, action: #selector(selectedVC(button:)), for: UIControlEvents.touchUpInside)
             button.tag = 100+i
         
-            self.tabBar.addSubview(button)
+            print(button)
+            
+            tabBar.addSubview(button)
             tabBarButtons.append(button)
 //            tabBarButtons.insert(button, at: i)
         }
@@ -133,10 +133,10 @@ class VerticalButton: UIButton {
         self.addSubview(subLable!)
         
         //按钮图片
-        subImageView = UIImageView(frame: CGRect(x: 0, y: (subLable?.frame.size.height)!, width: frame.size.width, height: frame.size.height*7))
+        subImageView = UIImageView(frame: CGRect(x: 0.0, y: (subLable?.frame.size.height)!, width: frame.size.width, height: frame.size.height*0.7))
         subImageView?.contentMode = UIViewContentMode.center
         
-        self.addSubview(subImageView!)
+//        self.addSubview(subImageView!)
     }
     
     required init?(coder aDecoder: NSCoder) {
