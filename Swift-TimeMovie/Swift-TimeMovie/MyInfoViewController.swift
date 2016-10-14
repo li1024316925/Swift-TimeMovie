@@ -12,7 +12,6 @@ class MyInfoViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "个人"
         // Do any additional setup after loading the view.
     }
 

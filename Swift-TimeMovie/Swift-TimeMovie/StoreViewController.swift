@@ -12,7 +12,6 @@ class StoreViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "影院"
         // Do any additional setup after loading the view.
     }
 

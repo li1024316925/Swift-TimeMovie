@@ -39,6 +39,7 @@ class MainViewController: UIViewController {
                 let uiVC = type.init()
                 uiVC.tabBarItem.selectedImage = UIImage(named: imgNames[i] + "_on")
                 uiVC.tabBarItem.image = UIImage(named: imgNames[i])
+                uiVC.title = imgNames[i]
                 let bnv = BaseNavViewController(rootViewController: uiVC)
                 bnvVcArray.append(bnv)
             }

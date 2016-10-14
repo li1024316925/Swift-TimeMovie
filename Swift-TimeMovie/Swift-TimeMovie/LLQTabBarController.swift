@@ -133,10 +133,10 @@ class VerticalButton: UIButton {
         self.addSubview(subLable!)
         
         //按钮图片
-        subImageView = UIImageView(frame: CGRect(x: 0.0, y: (subLable?.frame.size.height)!, width: frame.size.width, height: frame.size.height*0.7))
+        subImageView = UIImageView(frame: CGRect(x: 0, y: (subLable?.frame.size.height)!, width: frame.size.width, height: frame.size.height*0.7))
         subImageView?.contentMode = UIViewContentMode.center
         
-//        self.addSubview(subImageView!)
+        self.addSubview(subImageView!)
     }
     
     required init?(coder aDecoder: NSCoder) {

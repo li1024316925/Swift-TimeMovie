@@ -12,7 +12,6 @@ class DiscoverViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "精选"
         // Do any additional setup after loading the view.
     }
 

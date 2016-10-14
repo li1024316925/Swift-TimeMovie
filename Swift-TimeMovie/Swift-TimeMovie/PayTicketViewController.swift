@@ -12,9 +12,6 @@ class PayTicketViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "购票"
-        tabBarItem.image = UIImage(named: "payticket")
-        
     }
 
     override func didReceiveMemoryWarning() {
