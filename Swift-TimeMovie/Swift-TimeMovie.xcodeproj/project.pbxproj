@@ -17,6 +17,7 @@
 		9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C001DAF60170034D244 /* BaseNavViewController.swift */; };
 		9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C021DAF66490034D244 /* LLQTabBarController.swift */; };
 		9F42EF8C1DB44F7900B4A9E1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EF8B1DB44F7900B4A9E1 /* BaseModel.swift */; };
+		9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */; };
 		9F43871F1DB09ADA00130F5E /* actor_detail_top_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */; };
 		9F4387201DB09ADA00130F5E /* bg_mtime_star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */; };
 		9F4387211DB09ADA00130F5E /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386501DB09AD900130F5E /* discover@2x.png */; };
@@ -304,6 +305,7 @@
 		9F399C001DAF60170034D244 /* BaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavViewController.swift; sourceTree = "<group>"; };
 		9F399C021DAF66490034D244 /* LLQTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLQTabBarController.swift; sourceTree = "<group>"; };
 		9F42EF8B1DB44F7900B4A9E1 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFromJson.swift; sourceTree = "<group>"; };
 		9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actor_detail_top_background.jpg; sourceTree = "<group>"; };
 		9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_mtime_star.jpg; sourceTree = "<group>"; };
 		9F4386501DB09AD900130F5E /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
@@ -643,6 +645,7 @@
 				9F399C021DAF66490034D244 /* LLQTabBarController.swift */,
 				9F4387FD1DB0A22100130F5E /* BaseViewController.swift */,
 				9F42EF8B1DB44F7900B4A9E1 /* BaseModel.swift */,
+				9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -1660,6 +1663,7 @@
 				9F42EF8C1DB44F7900B4A9E1 /* BaseModel.swift in Sources */,
 				9F4388021DB0A30100130F5E /* PayTicketViewController.swift in Sources */,
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
+				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
 				9F4388081DB0A36B00130F5E /* MyInfoViewController.swift in Sources */,
 				9F4387FE1DB0A22100130F5E /* BaseViewController.swift in Sources */,
 				9F4388061DB0A35A00130F5E /* DiscoverViewController.swift in Sources */,
