@@ -31,6 +31,7 @@ class MainViewController: UIViewController {
             let str = viewContorllersArray[i]
             //通过一个字符串创建控制器对象
             //获取命名空间
+            //namespace在info.plist 对应的是 CFBundleExecutable,我们可以在info.plist中任意右击一行,选中Show Raw Keys/Values
             let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String
             let uivcType = NSClassFromString(namespace + "." + str) as? UIViewController.Type
             //可选绑定

@@ -77,7 +77,6 @@ class LLQTabBarController: UITabBarController {
             
             tabBar.addSubview(button)
             tabBarButtons.append(button)
-//            tabBarButtons.insert(button, at: i)
         }
         
     }
