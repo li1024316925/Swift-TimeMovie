@@ -26,15 +26,17 @@ class BaseModel: NSObject {
             //取出属性名
             let ivar = ivars?[Int(i)]
             let ivarName = ivar_getName(ivar!)
+            let ivarType = ivar_getTypeEncoding(ivar!)
             let nName = String(cString: ivarName!)
-            
+            let nType = String(cString: ivarType!)
+            let valueTypes = NSClassFromString(nType)?.type
             //取出要赋值的值
             let attribut = attributDic[nName]
-            var value:Any
+            var value:NSObject
             if dic[attribut!] != nil {
-                value = dic[attribut!]
+                value = dic[attribut!] as! NSObject
             } else {
-                value = ""
+                value = "" as NSObject
             }
             
             //利用KVC给本类的属性赋值

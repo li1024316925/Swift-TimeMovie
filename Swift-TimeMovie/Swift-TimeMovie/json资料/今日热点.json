@@ -1,0 +1,33 @@
+{
+  "news": {
+    "newsID": 1544183,
+    "title": "\"励志片\"《魔力麦克2》主创专访",
+    "type": 2,
+    "imageUrl": "http://img31.mtime.cn/mg/2015/07/14/084336.52095675.jpg"
+  },
+  "trailer": {
+    "trailerID": 55152,
+    "title": "《自杀小队》预告片",
+    "imageUrl": "http://img31.mtime.cn/mg/2015/07/14/091917.65854612.jpg",
+    "mp4Url": "http://vfx.mtime.cn/Video/2015/07/14/mp4/150714082515465664_480.mp4",
+    "hightUrl": "http://vfx.mtime.cn/Video/2015/07/14/mp4/150714082515465664.mp4",
+    "movieId": 217684
+  },
+  "review": {
+    "reviewID": 7906613,
+    "title": "脚踩单车的“哪吒”",
+    "posterUrl": "http://img31.mtime.cn/mt/2015/06/02/141928.78774873_1280X720X2.jpg",
+    "movieName": "少女哪吒",
+    "imageUrl": "http://img31.mtime.cn/mg/2015/07/13/100516.18925217.jpg"
+  },
+  "viewingGuide": {
+    "id": "10792",
+    "imageUrl": "http://img31.mtime.cn/mg/2015/03/31/100230.43767720.jpg"
+  },
+  "topList": {
+    "id": 1295,
+    "title": "美媒评2014/15年度最佳25部剧集",
+    "imageUrl": "http://img31.mtime.cn/mg/2015/07/03/165117.50918472.jpg",
+    "type": 1
+  }
+}

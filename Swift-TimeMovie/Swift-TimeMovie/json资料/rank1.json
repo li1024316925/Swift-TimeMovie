@@ -1,0 +1,51 @@
+{
+  "topList": [
+    {
+      "title": "时光Top100",
+      "titleSmall": "Mtime Top 100",
+      "pageSubAreaId": "2065"
+    },
+    {
+      "title": "华语Top100",
+      "titleSmall": "Top 100 Chinese-Language Movies",
+      "pageSubAreaId": "2066"
+    },
+    {
+      "title": "全球排行榜",
+      "titleSmall": "Global Top List",
+      "pageSubAreaId": "-1",
+      "subTopList": [
+        {
+          "title": "北美",
+          "titleSmall": "2015.06.26-06.28（单位：万美元）",
+          "pageSubAreaId": "2015"
+        },
+        {
+          "title": "内地",
+          "titleSmall": "2015.6.22 – 2015.6.28（单位：万元）",
+          "pageSubAreaId": "2020"
+        },
+        {
+          "title": "香港",
+          "titleSmall": "2015.6.1 - 2015.6.7 （单位：万港币）",
+          "pageSubAreaId": "2016"
+        },
+        {
+          "title": "台湾",
+          "titleSmall": "2015.5.29 – 2015.5.31  TOP 10 （单位：万新台币）",
+          "pageSubAreaId": "2019"
+        },
+        {
+          "title": "日本",
+          "titleSmall": "（6/27～6/28兴行通信社调查 据观影人数顺序排位）",
+          "pageSubAreaId": "2017"
+        },
+        {
+          "title": "韩国",
+          "titleSmall": "2015.6.26-2015.6.28（单位：万人次）",
+          "pageSubAreaId": "2018"
+        }
+      ]
+    }
+  ]
+}

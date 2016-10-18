@@ -1,0 +1,177 @@
+{
+  "advList": [
+    {
+      "url": "http://mall.wv.mtime.cn/#!/commerce/item/100418/",
+      "img": "http://img31.mtime.cn/mg/2015/06/30/105144.94925289.jpg",
+      "img2": "http://img31.mtime.cn/mg/2015/06/30/105147.91428431.jpg",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/#!/commerce/item/100418/",
+        "parameters": {
+          "goodsId": 100418
+        },
+        "relatedTypeUrl": ""
+      }
+    },
+    {
+      "url": "http://mall.wv.mtime.cn/#!/commerce/item/100861/",
+      "img": "http://img31.mtime.cn/mg/2015/06/30/084245.71955852.jpg",
+      "img2": "http://img31.mtime.cn/mg/2015/06/30/084250.92137895.jpg",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/#!/commerce/item/100861/",
+        "parameters": {
+          "goodsId": 100861
+        },
+        "relatedTypeUrl": ""
+      }
+    }
+  ],
+  "hotPoints": [
+    {
+      "id": 1543923,
+      "type": 0,
+      "title": "电影诞生120周年·下篇",
+      "desc": "高科技商业片的繁荣时代",
+      "img": "http://img31.mtime.cn/mg/2015/07/01/081710.86802432.jpg",
+      "publishTime": 1435737750
+    },
+    {
+      "id": 1544155,
+      "type": 0,
+      "title": "本·阿弗莱克宣布离婚",
+      "desc": "十年婚姻走到尽头",
+      "img": "http://img31.mtime.cn/mg/2015/07/01/082132.78454618.jpg",
+      "publishTime": 1435737263
+    },
+    {
+      "id": 1544145,
+      "type": 1,
+      "title": "《蚁人》举办全球首映",
+      "desc": "斯坦李携众主创出席",
+      "img": "http://img31.mtime.cn/mg/2015/07/01/082440.85798887.jpg",
+      "publishTime": 1435683347,
+      "images": [
+        {
+          "gId": 474673,
+          "title": "",
+          "desc": "众主创集体现身",
+          "url1": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/165504.75626025.jpg",
+          "url2": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/165504.75626025_900.jpg"
+        },
+        {
+          "gId": 474619,
+          "title": "",
+          "desc": "又帅又萌的“蚁人”保罗·路德",
+          "url1": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/153915.85368032.jpg",
+          "url2": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/153915.85368032_900.jpg"
+        },
+        {
+          "gId": 474624,
+          "title": "",
+          "desc": "精神抖擞的斯坦·李",
+          "url1": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/153918.18806840.jpg",
+          "url2": "http://img31.mtime.cn/CMS/Gallery/2015/06/30/153918.18806840_900.jpg"
+        }
+      ]
+    }
+  ],
+  "hotPerson": {},
+  "hotMovie": {
+    "newsId": 0,
+    "topCover": "http://img31.mtime.cn/mg/2015/07/01/095001.64848199.jpg",
+    "title": "小巧写实的地雷版《127小时》",
+    "movie": {
+      "movieId": 221339,
+      "titleCn": "卡贾基",
+      "titleEn": "Kajaki",
+      "year": "2014",
+      "desc": "真事改编，英军在阿富汗战争中误入雷区，让人如临其境，这才是人间地狱。",
+      "image": "http://img31.mtime.cn/mt/2015/02/11/151150.10003244_1280X720X2.jpg"
+    }
+  },
+  "areaFirst": {},
+  "areaSecond": {
+    "subFirst": {
+      "id": 17304114,
+      "goodsId": 100418,
+      "image": "http://img31.mtime.cn/mg/2015/06/30/110955.11686319.jpg",
+      "title": "",
+      "titleColor": "",
+      "titleSmall": "",
+      "image2": "",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/?utm_source=app_home_1#!/commerce/item/100418/",
+        "parameters": {
+          "goodsId": 100418
+        },
+        "relatedTypeUrl": ""
+      }
+    },
+    "subSecond": {
+      "id": 17304115,
+      "goodsId": 100622,
+      "image": "http://img31.mtime.cn/mg/2015/06/29/184913.35519670.jpg",
+      "title": "",
+      "titleColor": "",
+      "titleSmall": "",
+      "image2": "",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/?utm_source=app_home_2#!/commerce/item/100622/",
+        "parameters": {
+          "goodsId": 100622
+        },
+        "relatedTypeUrl": ""
+      }
+    },
+    "subThird": {
+      "id": 17304116,
+      "goodsId": 100491,
+      "image": "http://img31.mtime.cn/mg/2015/06/28/133651.90133338.jpg",
+      "title": "",
+      "titleColor": "",
+      "titleSmall": "",
+      "image2": "",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/?utm_source=app_home_3#!/commerce/item/100491/",
+        "parameters": {
+          "goodsId": 100491
+        },
+        "relatedTypeUrl": ""
+      }
+    },
+    "subFourth": {
+      "goodsId": 0,
+      "image": "http://img31.mtime.cn/mg/2015/06/29/112837.63815489.jpg",
+      "image2": "http://img31.mtime.cn/mg/2015/06/29/112837.63815489.jpg",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/?utm_source=app_home_4#!/commerce/item/100939/",
+        "parameters": {
+          "goodsId": 100939
+        },
+        "relatedTypeUrl": ""
+      }
+    },
+    "subFifth": {
+      "id": 18159583,
+      "goodsId": 101003,
+      "image": "http://img31.mtime.cn/mg/2015/06/29/104737.13502272.jpg",
+      "title": "",
+      "titleColor": "",
+      "titleSmall": "",
+      "image2": "",
+      "gotoPage": {
+        "gotoType": "gotogoodsinfo",
+        "url": "http://mall.wv.mtime.cn/?utm_source=app_home_5#!/commerce/item/101003/",
+        "parameters": {
+          "goodsId": 101003
+        },
+        "relatedTypeUrl": ""
+      }
+    }
+  }
+}

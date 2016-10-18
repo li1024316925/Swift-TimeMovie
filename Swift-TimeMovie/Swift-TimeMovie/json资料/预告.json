@@ -1,0 +1,777 @@
+{
+  "trailers": [
+    {
+      "id": 54989,
+      "movieName": "《蚁人》国际版终极预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/04/110239.56696980.jpg",
+      "movieId": 57903,
+      "url": "http://vfx.mtime.cn/Video/2015/07/04/mp4/150704102229172451_480.mp4",
+      "videoTitle": "蚁人 终极版国际预告片",
+      "videoLength": 89,
+      "rating": -1,
+      "type": [
+        "动作",
+        "科幻"
+      ],
+      "summary": "蚁人要打电话叫复联来帮忙"
+    },
+    {
+      "id": 54985,
+      "movieName": "《捉妖记》国际版预告片 ",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/03/153556.70151592.jpg",
+      "movieId": 211794,
+      "url": "http://vfx.mtime.cn/Video/2015/07/03/mp4/150703111229148697_480.mp4",
+      "videoTitle": "捉妖记 国际版预告片",
+      "videoLength": 119,
+      "rating": -1,
+      "type": [
+        "奇幻",
+        "喜剧"
+      ],
+      "summary": "妖存人性，人有妖性"
+    },
+    {
+      "id": 54969,
+      "movieName": "《道士下山》终极版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/02/174235.22033908.jpg",
+      "movieId": 206789,
+      "url": "http://vfx.mtime.cn/Video/2015/07/02/mp4/150702150327597538_480.mp4",
+      "videoTitle": "道士下山 终极版预告片",
+      "videoLength": 77,
+      "rating": 6,
+      "type": [
+        "动作",
+        "剧情"
+      ],
+      "summary": "乱世中各类江湖人物纷纷登场"
+    },
+    {
+      "id": 54955,
+      "movieName": "《玩命快递4》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/02/104944.37344381.jpg",
+      "movieId": 209488,
+      "url": "http://vfx.mtime.cn/Video/2015/07/02/mp4/150702092426759251_480.mp4",
+      "videoTitle": "玩命快递4 预告片2",
+      "videoLength": 151,
+      "rating": -1,
+      "type": [
+        "动作",
+        "犯罪",
+        "惊悚"
+      ],
+      "summary": "弗兰克继续凭车技杀出重围"
+    },
+    {
+      "id": 54956,
+      "movieName": "《伦敦陷落》先行版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/02/101117.45798043.jpg",
+      "movieId": 211903,
+      "url": "http://vfx.mtime.cn/Video/2015/07/02/mp4/150702093650134936_480.mp4",
+      "videoTitle": "伦敦陷落 先行版预告片",
+      "videoLength": 63,
+      "rating": -1,
+      "type": [
+        "动作",
+        "犯罪",
+        "惊悚"
+      ],
+      "summary": "英国首相逝世，刺杀活动展开"
+    },
+    {
+      "id": 54952,
+      "movieName": "《太平轮》先行版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/02/103420.36227095.jpg",
+      "movieId": 216918,
+      "url": "http://vfx.mtime.cn/Video/2015/07/02/mp4/150702090207339742_480.mp4",
+      "videoTitle": "太平轮：彼岸 先行版预告片2",
+      "videoLength": 90,
+      "rating": -1,
+      "type": [
+        "爱情",
+        "剧情",
+        "战争"
+      ],
+      "summary": "严泽坤与雅子之间的相思之爱"
+    },
+    {
+      "id": 54930,
+      "movieName": "《奎迪》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/07/01/102448.92499346.jpg",
+      "movieId": 218519,
+      "url": "http://vfx.mtime.cn/Video/2015/07/01/mp4/150701093120959372_480.mp4",
+      "videoTitle": "奎迪 预告片",
+      "videoLength": 163,
+      "rating": -1,
+      "type": [
+        "剧情",
+        "运动"
+      ],
+      "summary": "洛基重出江湖担任教练"
+    },
+    {
+      "id": 54917,
+      "movieName": "《鬼吹灯》先行版预告片 ",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/30/120957.19020471.jpg",
+      "movieId": 208914,
+      "url": "http://vfx.mtime.cn/Video/2015/06/30/mp4/150630105131121537_480.mp4",
+      "videoTitle": "鬼吹灯之九层妖塔 先行版预告片",
+      "videoLength": 61,
+      "rating": -1,
+      "type": [
+        "动作",
+        "奇幻",
+        "惊悚",
+        "冒险"
+      ],
+      "summary": "赵又廷姚晨演绎经典盗墓故事"
+    },
+    {
+      "id": 54913,
+      "movieName": "《万圣年代》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/30/113748.69389549.jpg",
+      "movieId": 219150,
+      "url": "http://vfx.mtime.cn/Video/2015/06/30/mp4/150630095828233902_480.mp4",
+      "videoTitle": "万圣年代 预告片",
+      "videoLength": 143,
+      "rating": -1,
+      "type": [
+        "喜剧",
+        "音乐",
+        "剧情"
+      ],
+      "summary": "在逃离父母错误的过程中成长"
+    },
+    {
+      "id": 54911,
+      "movieName": "《烈日灼心》先行版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/30/103355.32623704.jpg",
+      "movieId": 200714,
+      "url": "http://vfx.mtime.cn/Video/2015/06/30/mp4/150630095321684837_480.mp4",
+      "videoTitle": "烈日灼心 先行版预告片2",
+      "videoLength": 60,
+      "rating": -1,
+      "type": [
+        "剧情",
+        "悬疑",
+        "犯罪"
+      ],
+      "summary": "三影帝演绎罪与罚的故事"
+    },
+    {
+      "id": 54906,
+      "movieName": "《谜城》金钱版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/29/164134.90364555.jpg",
+      "movieId": 215630,
+      "url": "http://vfx.mtime.cn/Video/2015/06/29/mp4/150629155108492835_480.mp4",
+      "videoTitle": "谜城 金钱版预告片",
+      "videoLength": 93,
+      "rating": -1,
+      "type": [
+        "动作",
+        "剧情",
+        "犯罪"
+      ],
+      "summary": "发生在谜城香港的金钱战争"
+    },
+    {
+      "id": 54885,
+      "movieName": "《我是路人甲》终极预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/28/152722.31946241.jpg",
+      "movieId": 207207,
+      "url": "http://vfx.mtime.cn/Video/2015/06/28/mp4/150628151056137113_480.mp4",
+      "videoTitle": "我是路人甲 终极版预告片",
+      "videoLength": 120,
+      "rating": 7.3,
+      "type": [
+        "喜剧",
+        "爱情"
+      ],
+      "summary": "揭秘“大横店”真实内幕"
+    },
+    {
+      "id": 54875,
+      "movieName": "《蚁人》日版预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/26/151031.64989552.jpg",
+      "movieId": 57903,
+      "url": "http://vfx.mtime.cn/Video/2015/06/26/mp4/150626112527391579_480.mp4",
+      "videoTitle": "蚁人 日本版预告片",
+      "videoLength": 150,
+      "rating": -1,
+      "type": [
+        "动作",
+        "科幻"
+      ],
+      "summary": "大量酷炫新镜头曝光"
+    },
+    {
+      "id": 54854,
+      "movieName": "《传奇》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/26/114352.42137057.jpg",
+      "movieId": 215108,
+      "url": "http://vfx.mtime.cn/Video/2015/06/26/mp4/150626085310309998_480.mp4",
+      "videoTitle": "传奇 剧场版预告片",
+      "videoLength": 149,
+      "rating": -1,
+      "type": [
+        "惊悚"
+      ],
+      "summary": "汤姆哈迪精分演孪生兄弟"
+    },
+    {
+      "id": 54832,
+      "movieName": "《鬼影实录5》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/25/105625.52270881.jpg",
+      "movieId": 202755,
+      "url": "http://vfx.mtime.cn/Video/2015/06/25/mp4/150625090147983125_480.mp4",
+      "videoTitle": "鬼影实录5：鬼次元 预告片",
+      "videoLength": 161,
+      "rating": -1,
+      "type": [
+        "恐怖"
+      ],
+      "summary": "美满家庭迁入新居却撞鬼"
+    },
+    {
+      "id": 54831,
+      "movieName": "《宅女侦探桂香》预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/25/111043.96536705.jpg",
+      "movieId": 222527,
+      "url": "http://vfx.mtime.cn/Video/2015/06/24/mp4/150624194236436282_480.mp4",
+      "videoTitle": "宅女侦探桂香 剧场版预告片",
+      "videoLength": 145,
+      "rating": -1,
+      "type": [
+        "爱情",
+        "悬疑"
+      ],
+      "summary": "女人天生就是侦探"
+    },
+    {
+      "id": 54809,
+      "movieName": "《代号47》剧场版预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/25/141216.89996371.jpg",
+      "movieId": 211870,
+      "url": "http://vfx.mtime.cn/Video/2015/06/24/mp4/150624085428676443_480.mp4",
+      "videoTitle": "代号47 剧场版预告片",
+      "videoLength": 191,
+      "rating": -1,
+      "type": [
+        "动作",
+        "犯罪",
+        "惊悚"
+      ],
+      "summary": "代号47搭档犀利女杀手"
+    },
+    {
+      "id": 54806,
+      "movieName": "《暗杀》全长预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/24/092038.30522189.jpg",
+      "movieId": 218884,
+      "url": "http://vfx.mtime.cn/Video/2015/06/23/mp4/150623184553042879_480.mp4",
+      "videoTitle": "暗杀 剧场版预告片",
+      "videoLength": 94,
+      "rating": -1,
+      "type": [
+        "犯罪"
+      ],
+      "summary": "全智贤演女狙击手"
+    },
+    {
+      "id": 54689,
+      "movieName": "《捉妖记》“妖王”预告 ",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/24/110939.34223338.jpg",
+      "movieId": 211794,
+      "url": "http://vfx.mtime.cn/Video/2015/06/17/mp4/150617102316656892_480.mp4",
+      "videoTitle": "捉妖记 预告片之妖王传说",
+      "videoLength": 80,
+      "rating": -1,
+      "type": [
+        "奇幻",
+        "喜剧"
+      ],
+      "summary": "钟汉良演捉妖界霸道总裁 "
+    },
+    {
+      "id": 54788,
+      "movieName": "《碟中谍5》加长版预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/23/105051.65436227.jpg",
+      "movieId": 165359,
+      "url": "http://vfx.mtime.cn/Video/2015/06/23/mp4/150623111204478693_480.mp4",
+      "videoTitle": "碟中谍5：神秘国度 台湾版终极预告片",
+      "videoLength": 161,
+      "rating": -1,
+      "type": [
+        "动作",
+        "冒险",
+        "惊悚"
+      ],
+      "summary": "53岁阿汤哥扒飞机"
+    },
+    {
+      "id": 54787,
+      "movieName": "《太平轮：彼岸》预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/23/103552.46774788.jpg",
+      "movieId": 216918,
+      "url": "http://vfx.mtime.cn/Video/2015/06/23/mp4/150623092126710733_480.mp4",
+      "videoTitle": "太平轮：彼岸 先行版预告片",
+      "videoLength": 52,
+      "rating": -1,
+      "type": [
+        "爱情",
+        "剧情",
+        "战争"
+      ],
+      "summary": "乱世中能否驶向希望的彼岸"
+    },
+    {
+      "id": 54785,
+      "movieName": "《横冲直撞好莱坞》预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/23/110808.59026501.jpg",
+      "movieId": 216896,
+      "url": "http://vfx.mtime.cn/Video/2015/06/22/mp4/150622200122523045_480.mp4",
+      "videoTitle": "横冲直撞好莱坞 终极版预告片",
+      "videoLength": 164,
+      "rating": 5.4,
+      "type": [
+        "动作",
+        "喜剧"
+      ],
+      "summary": "赵薇黄晓明佟大为“犯二”"
+    },
+    {
+      "id": 54783,
+      "movieName": "《为爱放手》首款预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/22/103236.72966058.jpg",
+      "movieId": 221756,
+      "url": "http://vfx.mtime.cn/Video/2015/06/22/mp4/150622091136955702_480.mp4",
+      "videoTitle": "为爱放手 先行版预告片",
+      "videoLength": 65,
+      "rating": 0,
+      "type": [
+        "爱情",
+        "剧情"
+      ],
+      "summary": "小时代姜潮搭档晶女郎童菲"
+    },
+    {
+      "id": 54741,
+      "movieName": "《边境杀手》首款预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/22/104109.43029837.jpg",
+      "movieId": 214775,
+      "url": "http://vfx.mtime.cn/Video/2015/06/19/mp4/150619081928306907_480.mp4",
+      "videoTitle": "边境杀手 预告片",
+      "videoLength": 139,
+      "rating": -1,
+      "type": [
+        "犯罪",
+        "剧情",
+        "悬疑",
+        "惊悚"
+      ],
+      "summary": "明日世界\"女汉子\"边境缉毒"
+    },
+    {
+      "id": 54777,
+      "movieName": "《亲爹回来了》首款预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/20/142613.46767930.jpg",
+      "movieId": 218417,
+      "url": "http://vfx.mtime.cn/Video/2015/06/20/mp4/150620103728798347_480.mp4",
+      "videoTitle": "亲爹回来了 预告片",
+      "videoLength": 158,
+      "rating": -1,
+      "type": [
+        "喜剧"
+      ],
+      "summary": "亲爹后爸为争宠明争暗斗"
+    },
+    {
+      "id": 54747,
+      "movieName": "《功夫熊猫3》中国版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/19/110220.62614261.jpg",
+      "movieId": 177861,
+      "url": "http://vfx.mtime.cn/Video/2015/06/19/mp4/150619093922072145_480.mp4",
+      "videoTitle": "功夫熊猫3 中国版预告片",
+      "videoLength": 136,
+      "rating": -1,
+      "type": [
+        "动画",
+        "动作",
+        "冒险",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "熊猫阿宝与父亲相遇"
+    },
+    {
+      "id": 54738,
+      "movieName": "《道士下山》国际版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/19/100258.23533481.jpg",
+      "movieId": 206789,
+      "url": "http://vfx.mtime.cn/Video/2015/06/18/mp4/150618172959759336_480.mp4",
+      "videoTitle": "道士下山 国际版预告片",
+      "videoLength": 86,
+      "rating": 6,
+      "type": [
+        "动作",
+        "剧情"
+      ],
+      "summary": "王宝强的奇幻漂流"
+    },
+    {
+      "id": 54721,
+      "movieName": "《精灵旅社2》中文版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/18/112601.68193818.jpg",
+      "movieId": 184458,
+      "url": "http://vfx.mtime.cn/Video/2015/06/18/mp4/150618101313610613_480.mp4",
+      "videoTitle": "精灵旅社2 中文版预告片",
+      "videoLength": 135,
+      "rating": -1,
+      "type": [
+        "动画",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "吸血鬼小外孙引爆家庭矛盾"
+    },
+    {
+      "id": 54720,
+      "movieName": "《宠物的秘密生活》先行版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/18/113045.90373692.jpg",
+      "movieId": 223848,
+      "url": "http://vfx.mtime.cn/Video/2015/06/18/mp4/150618101029432372_480.mp4",
+      "videoTitle": "宠物的秘密生活 先行版预告片",
+      "videoLength": 161,
+      "rating": -1,
+      "type": [
+        "动画"
+      ],
+      "summary": "一众宠物作上天"
+    },
+    {
+      "id": 54714,
+      "movieName": "《史努比》中文版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/18/101622.59487880.jpg",
+      "movieId": 208057,
+      "url": "http://vfx.mtime.cn/Video/2015/06/18/mp4/150618095734495446_480.mp4",
+      "videoTitle": "史努比：花生漫画大电影 中文版预告片",
+      "videoLength": 106,
+      "rating": -1,
+      "type": [
+        "动画",
+        "冒险",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "查理与史努比等悉数登场"
+    },
+    {
+      "id": 54689,
+      "movieName": "《捉妖记》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/17/153001.64736730.jpg",
+      "movieId": 211794,
+      "url": "http://vfx.mtime.cn/Video/2015/06/17/mp4/150617102316656892_480.mp4",
+      "videoTitle": "捉妖记 预告片之妖王传说",
+      "videoLength": 80,
+      "rating": -1,
+      "type": [
+        "奇幻",
+        "喜剧"
+      ],
+      "summary": "人妖大战一触即发"
+    },
+    {
+      "id": 54683,
+      "movieName": "《绝地逃亡》 先行版预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/17/100401.75156882.jpg",
+      "movieId": 199602,
+      "url": "http://vfx.mtime.cn/Video/2015/06/16/mp4/150616192535999032_480.mp4",
+      "videoTitle": "绝地逃亡 先行版预告片",
+      "videoLength": 93,
+      "rating": -1,
+      "type": [
+        "动作",
+        "喜剧"
+      ],
+      "summary": "成龙饰演警探展开爆笑逃亡"
+    },
+    {
+      "id": 54685,
+      "movieName": "《横冲直撞好莱坞》新预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/17/101308.33997723.jpg",
+      "movieId": 216896,
+      "url": "http://vfx.mtime.cn/Video/2015/06/16/mp4/150616212433842110_480.mp4",
+      "videoTitle": "横冲直撞好莱坞 动作版预告片",
+      "videoLength": 118,
+      "rating": 5.4,
+      "type": [
+        "动作",
+        "喜剧"
+      ],
+      "summary": "二货天团冲直撞各露绝活"
+    },
+    {
+      "id": 54637,
+      "movieName": "《回到被爱的每一天》预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/15/105532.49041284.jpg",
+      "movieId": 225735,
+      "url": "http://vfx.mtime.cn/Video/2015/06/15/mp4/150615091536421359_480.mp4",
+      "videoTitle": "回到被爱的每一天 先行版预告片",
+      "videoLength": 40,
+      "rating": -1,
+      "type": [
+        "爱情"
+      ],
+      "summary": "导演何平时隔6年再拍新片"
+    },
+    {
+      "id": 54630,
+      "movieName": "《杨贵妃》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/14/112114.18299151.jpg",
+      "movieId": 147981,
+      "url": "http://vfx.mtime.cn/Video/2015/06/14/mp4/150614091102989517_480.mp4",
+      "videoTitle": "王朝的女人·杨贵妃 剧场版预告片",
+      "videoLength": 96,
+      "rating": -1,
+      "type": [
+        "历史",
+        "古装"
+      ],
+      "summary": "范冰冰与黎明吴尊三角恋"
+    },
+    {
+      "id": 54628,
+      "movieName": "《功夫熊猫3》中文预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/14/114101.62200321.jpg",
+      "movieId": 177861,
+      "url": "http://vfx.mtime.cn/Video/2015/06/13/mp4/150613163400722849_480.mp4",
+      "videoTitle": "功夫熊猫3 中文版预告片",
+      "videoLength": 51,
+      "rating": -1,
+      "type": [
+        "动画",
+        "动作",
+        "冒险",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "神龙大侠阿宝再启冒险征途"
+    },
+    {
+      "id": 54622,
+      "movieName": "《偶像》首支预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/13/100325.65088427.jpg",
+      "movieId": 207325,
+      "url": "http://vfx.mtime.cn/Video/2015/06/12/mp4/150612151759631762_480.mp4",
+      "videoTitle": "偶像 英国版预告片",
+      "videoLength": 91,
+      "rating": -1,
+      "type": [
+        "传记",
+        "剧情",
+        "运动"
+      ],
+      "summary": "传奇车手的那段黑历史"
+    },
+    {
+      "id": 54616,
+      "movieName": "《秘密特工》新预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/12/171459.45597137.jpg",
+      "movieId": 154179,
+      "url": "http://vfx.mtime.cn/Video/2015/06/12/mp4/150612105502561082_480.mp4",
+      "videoTitle": "秘密特工 预告片2",
+      "videoLength": 153,
+      "rating": -1,
+      "type": [
+        "动作",
+        "冒险",
+        "喜剧"
+      ],
+      "summary": "女反派色诱卡维尔"
+    },
+    {
+      "id": 54606,
+      "movieName": "《动物乌托邦》中文预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/12/094418.77922002.jpg",
+      "movieId": 205222,
+      "url": "http://vfx.mtime.cn/Video/2015/06/12/mp4/150612085327842691_480.mp4",
+      "videoTitle": "动物乌托邦 中文版先行预告片",
+      "videoLength": 93,
+      "rating": -1,
+      "type": [
+        "动画",
+        "动作",
+        "冒险",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "动物穿衣直立行走"
+    },
+    {
+      "id": 54580,
+      "movieName": "《小羊肖恩》中文预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/11/094844.46252013.jpg",
+      "movieId": 203224,
+      "url": "http://vfx.mtime.cn/Video/2015/06/11/mp4/150611090847718641_480.mp4",
+      "videoTitle": "小羊肖恩 中国版预告片1",
+      "videoLength": 36,
+      "rating": 8.2,
+      "type": [
+        "动画",
+        "冒险",
+        "喜剧",
+        "家庭"
+      ],
+      "summary": "黏土动画大电影"
+    },
+    {
+      "id": 54578,
+      "movieName": "《回到从前》预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/11/093540.71593250.jpg",
+      "movieId": 209106,
+      "url": "http://vfx.mtime.cn/Video/2015/06/11/mp4/150611085906234079_480.mp4",
+      "videoTitle": "回到从前 预告片",
+      "videoLength": 130,
+      "rating": -1,
+      "type": [
+        "惊悚"
+      ],
+      "summary": "艾玛沃森首演惊悚片"
+    },
+    {
+      "id": 54558,
+      "movieName": "《饥饿游戏3下》先行预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/10/101853.61431433.jpg",
+      "movieId": 175317,
+      "url": "http://vfx.mtime.cn/Video/2015/06/10/mp4/150610084109173441.mp4",
+      "videoTitle": "饥饿游戏3：嘲笑鸟（下） 先行版预告片",
+      "videoLength": 114,
+      "rating": -1,
+      "type": [
+        "冒险",
+        "科幻"
+      ],
+      "summary": "施惠国陷入全面战乱"
+    },
+    {
+      "id": 54533,
+      "movieName": "《火星救援》中文预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/09/093853.32490074.jpg",
+      "movieId": 216036,
+      "url": "http://vfx.mtime.cn/Video/2015/06/08/mp4/150608211728213997_480.mp4",
+      "videoTitle": "火星救援 中文版预告片",
+      "videoLength": 188,
+      "rating": -1,
+      "type": [
+        "动作",
+        "冒险",
+        "科幻"
+      ],
+      "summary": "马特达蒙孤身被困火星"
+    },
+    {
+      "id": 54534,
+      "movieName": "《命中注定》先行预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/09/094234.36871103.jpg",
+      "movieId": 212016,
+      "url": "http://vfx.mtime.cn/Video/2015/06/08/mp4/150608231215584378_480.mp4",
+      "videoTitle": "命中注定 先行版预告片",
+      "videoLength": 90,
+      "rating": -1,
+      "type": [
+        "剧情"
+      ],
+      "summary": "汤唯、廖凡异国寻爱"
+    },
+    {
+      "id": 54516,
+      "movieName": "《分歧者2》中国终极预告",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/08/103456.42054687.jpg",
+      "movieId": 208253,
+      "url": "http://vfx.mtime.cn/Video/2015/06/08/mp4/150608092644393886_480.mp4",
+      "videoTitle": "分歧者2：绝地反击 中文版终极预告片",
+      "videoLength": 94,
+      "rating": 6.9,
+      "type": [
+        "冒险",
+        "科幻",
+        "惊悚"
+      ],
+      "summary": "翠丝被进行神秘实验"
+    },
+    {
+      "id": 54506,
+      "movieName": "《铁拳》最新预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/07/085542.15830276.jpg",
+      "movieId": 215120,
+      "url": "http://vfx.mtime.cn/Video/2015/06/06/mp4/150606094325634487_480.mp4",
+      "videoTitle": "铁拳 预告片2",
+      "videoLength": 66,
+      "rating": -1,
+      "type": [
+        "剧情",
+        "运动"
+      ],
+      "summary": "吉伦哈尔重返拳坛获救赎"
+    },
+    {
+      "id": 54507,
+      "movieName": "《间谍之桥》首曝预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/06/103354.13949665.jpg",
+      "movieId": 215911,
+      "url": "http://vfx.mtime.cn/Video/2015/06/06/mp4/150606095346452518_480.mp4",
+      "videoTitle": "间谍之桥 先行版预告片",
+      "videoLength": 151,
+      "rating": -1,
+      "type": [
+        "剧情",
+        "惊悚"
+      ],
+      "summary": "汤姆汉克斯卷入冷战漩涡"
+    },
+    {
+      "id": 54478,
+      "movieName": "《云中行走》中文版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/05/091359.85212454.jpg",
+      "movieId": 209410,
+      "url": "http://vfx.mtime.cn/Video/2015/06/05/mp4/150605080843733514_480.mp4",
+      "videoTitle": "云中行走 中文版剧场预告片",
+      "videoLength": 148,
+      "rating": -1,
+      "type": [
+        "剧情"
+      ],
+      "summary": "囧瑟夫大秀走钢索绝技"
+    },
+    {
+      "id": 54473,
+      "movieName": "《麦克白》首款预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/05/092732.43264124.jpg",
+      "movieId": 205839,
+      "url": "http://vfx.mtime.cn/Video/2015/06/04/mp4/150604173656274881_480.mp4",
+      "videoTitle": "麦克白 预告片",
+      "videoLength": 112,
+      "rating": -1,
+      "type": [
+        "剧情",
+        "历史"
+      ],
+      "summary": "麦克白称王之后杀戮一触即发"
+    },
+    {
+      "id": 54480,
+      "movieName": "《远征珠峰》国际版预告片",
+      "coverImg": "http://img31.mtime.cn/mg/2015/06/05/110435.41870419.jpg",
+      "movieId": 207337,
+      "url": "http://vfx.mtime.cn/Video/2015/06/05/mp4/150605085753801008_480.mp4",
+      "videoTitle": "绝命海拔 国际版预告片",
+      "videoLength": 173,
+      "rating": -1,
+      "type": [
+        "冒险",
+        "剧情",
+        "惊悚"
+      ],
+      "summary": "揭露暴风雪、雪崩等震撼场面"
+    }
+  ]
+}

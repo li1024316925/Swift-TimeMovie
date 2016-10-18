@@ -1,0 +1,240 @@
+{
+  "types": [
+    {
+      "typeName": "导演",
+      "typeNameEn": "Director",
+      "persons": [
+        {
+          "id": 1573981,
+          "name": "郭敬明",
+          "nameEn": "Jingming Guo",
+          "image": "http://img31.mtime.cn/ph/2014/06/05/163136.49115932_1280X720X2.jpg"
+        }
+      ]
+    },
+    {
+      "typeName": "演员",
+      "typeNameEn": "Actor",
+      "persons": [
+        {
+          "id": 1249009,
+          "name": "杨幂",
+          "nameEn": "Mini Yang",
+          "image": "http://img31.mtime.cn/ph/2014/03/17/072917.63885117_1280X720X2.jpg",
+          "personate": "林萧",
+          "personateCn": "林萧",
+          "personateEn": "",
+          "roleCover": "http://img31.mtime.cn/mg/2015/07/06/155028.21136995_120X120X4.jpg"
+        },
+        {
+          "id": 1531189,
+          "name": "郭采洁",
+          "nameEn": "Amber Kuo",
+          "image": "http://img31.mtime.cn/ph/2014/03/14/153016.50171726_1280X720X2.jpg",
+          "personate": "顾里",
+          "personateCn": "顾里",
+          "personateEn": "",
+          "roleCover": "http://img31.mtime.cn/mg/2015/07/06/155035.25083674_120X120X4.jpg"
+        },
+        {
+          "id": 1400883,
+          "name": "郭碧婷",
+          "nameEn": "Biting Guo",
+          "image": "http://img31.mtime.cn/ph/2014/07/16/113409.84960516_1280X720X2.jpg",
+          "personate": "南湘",
+          "personateCn": "南湘",
+          "personateEn": "",
+          "roleCover": "http://img31.mtime.cn/mg/2015/07/06/155045.14783225_120X120X4.jpg"
+        },
+        {
+          "id": 1925931,
+          "name": "谢依霖",
+          "nameEn": "Sie Yi-Lin",
+          "image": "http://img31.mtime.cn/ph/2014/03/14/153017.53176437_1280X720X2.jpg",
+          "personate": "唐宛如",
+          "personateCn": "唐宛如",
+          "personateEn": "",
+          "roleCover": "http://img31.mtime.cn/mg/2015/07/06/155055.10945414_120X120X4.jpg"
+        },
+        {
+          "id": 1993256,
+          "name": "陈学冬",
+          "nameEn": "Xuedong Chen",
+          "image": "http://img31.mtime.cn/ph/2014/03/14/153018.75387752_1280X720X2.jpg",
+          "personate": "周崇光（陆烧）",
+          "personateCn": "周崇光（陆烧）",
+          "personateEn": "",
+          "roleCover": "http://img31.mtime.cn/mg/2015/07/06/155411.85412029_120X120X4.jpg"
+        },
+        {
+          "id": 1875534,
+          "name": "锦荣",
+          "nameEn": "Vivian Dawson",
+          "image": "http://img31.mtime.cn/ph/2014/03/17/170814.58629899_1280X720X2.jpg",
+          "personate": "宫洺",
+          "personateCn": "宫洺",
+          "personateEn": ""
+        },
+        {
+          "id": 1895059,
+          "name": "李贤宰",
+          "nameEn": "Hyun-Jae Lee",
+          "image": "http://img31.mtime.cn/ph/2014/05/07/151907.74568541_1280X720X2.jpg",
+          "personate": "Neil",
+          "personateCn": "Neil",
+          "personateEn": ""
+        },
+        {
+          "id": 2076962,
+          "name": "任佑明",
+          "nameEn": "Ming",
+          "image": "http://img31.mtime.cn/ph/2014/07/16/115439.50207452_1280X720X2.jpg",
+          "personate": "顾准",
+          "personateCn": "顾准",
+          "personateEn": ""
+        },
+        {
+          "id": 1802001,
+          "name": "姜潮",
+          "nameEn": "Jo",
+          "image": "http://img31.mtime.cn/ph/2014/03/14/153019.51299477_1280X720X2.jpg",
+          "personate": "席城",
+          "personateCn": "席城",
+          "personateEn": ""
+        },
+        {
+          "id": 1287182,
+          "name": "王琳",
+          "nameEn": "Lin Wang",
+          "image": "http://img31.mtime.cn/ph/2014/08/24/100912.72454906_1280X720X2.jpg",
+          "personate": "叶传萍",
+          "personateCn": "叶传萍",
+          "personateEn": ""
+        },
+        {
+          "id": 1994267,
+          "name": "商侃",
+          "nameEn": "Kan Shang",
+          "image": "http://img31.mtime.cn/ph/2014/07/18/101011.45076333_1280X720X2.jpg",
+          "personate": "Kitty",
+          "personateCn": "Kitty",
+          "personateEn": ""
+        },
+        {
+          "id": 1993044,
+          "name": "杜天皓",
+          "nameEn": "Tianhao Du",
+          "image": "http://img31.mtime.cn/ph/2014/03/14/153019.47339140_1280X720X2.jpg",
+          "personate": "卫海",
+          "personateCn": "卫海",
+          "personateEn": ""
+        },
+        {
+          "id": 2047362,
+          "name": "张籽沐",
+          "nameEn": "Zi Mu Zhang",
+          "image": "http://img31.mtime.cn/ph/2014/04/11/113744.98330706_1280X720X2.jpg",
+          "personate": "顾里（幼年）",
+          "personateCn": "顾里（幼年）",
+          "personateEn": ""
+        },
+        {
+          "id": 1935117,
+          "name": "纪姿含",
+          "nameEn": "Zi Han Ji",
+          "image": "http://img31.mtime.cn/ph/2014/08/11/114309.45749788_1280X720X2.jpg",
+          "personate": "林萧（幼年）",
+          "personateCn": "林萧（幼年）",
+          "personateEn": ""
+        },
+        {
+          "id": 1821556,
+          "name": "柴蔚",
+          "nameEn": "Wei Chai",
+          "image": "http://img21.mtime.cn/ph/2011/02/14/113034.30836648_1280X720X2.jpg",
+          "personate": "林萧（童年）",
+          "personateCn": "林萧（童年）",
+          "personateEn": ""
+        },
+        {
+          "id": 2103048,
+          "name": "汤甄",
+          "nameEn": "Zhen Tang",
+          "image": "http://img31.mtime.cn/ph/1048/2103048/2103048_1280X720X2.jpg",
+          "personate": "顾里（童年）",
+          "personateCn": "顾里（童年）",
+          "personateEn": ""
+        },
+        {
+          "id": 2103049,
+          "name": "丹尼斯·凯恩",
+          "nameEn": "Kane Dennis",
+          "image": "http://img31.mtime.cn/ph/1049/2103049/2103049_1280X720X2.jpg",
+          "personate": "崇光（童年）",
+          "personateCn": "崇光（童年）",
+          "personateEn": ""
+        },
+        {
+          "id": 2103050,
+          "name": "张汉盛",
+          "nameEn": "Hansheng Zhang",
+          "image": "http://img31.mtime.cn/ph/1050/2103050/2103050_1280X720X2.jpg",
+          "personate": "宫洺（童年）",
+          "personateCn": "宫洺（童年）",
+          "personateEn": ""
+        },
+        {
+          "id": 2103051,
+          "name": "姜洋乐",
+          "nameEn": "Yangle Jiang",
+          "image": "http://img31.mtime.cn/ph/1051/2103051/2103051_1280X720X2.jpg",
+          "personate": "南湘（童年）",
+          "personateCn": "南湘（童年）",
+          "personateEn": ""
+        }
+      ]
+    },
+    {
+      "typeName": "编剧",
+      "typeNameEn": "Writer",
+      "persons": [
+        {
+          "id": 1573981,
+          "name": "郭敬明",
+          "nameEn": "Jingming Guo",
+          "image": "http://img31.mtime.cn/ph/2014/06/05/163136.49115932_1280X720X2.jpg"
+        }
+      ]
+    },
+    {
+      "typeName": "制作人",
+      "typeNameEn": "Produced by",
+      "persons": [
+        {
+          "id": 1573981,
+          "name": "郭敬明",
+          "nameEn": "Jingming Guo",
+          "image": "http://img31.mtime.cn/ph/2014/06/05/163136.49115932_1280X720X2.jpg"
+        },
+        {
+          "id": 1289676,
+          "name": "柴智屏",
+          "nameEn": "Zhiping Chai",
+          "image": "http://img31.mtime.cn/ph/2014/08/21/100640.23239692_1280X720X2.jpg"
+        },
+        {
+          "id": 1259271,
+          "name": "李力",
+          "nameEn": "Li Li",
+          "image": "http://img31.mtime.cn/ph/1271/1259271/1259271_1280X720X2.jpg"
+        },
+        {
+          "id": 1668916,
+          "name": "张宇",
+          "nameEn": "Yu Zhang",
+          "image": "http://img31.mtime.cn/ph/2015/05/27/112709.67313202_1280X720X2.jpg"
+        }
+      ]
+    }
+  ]
+}

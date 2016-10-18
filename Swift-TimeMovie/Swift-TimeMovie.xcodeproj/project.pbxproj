@@ -18,6 +18,30 @@
 		9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399C021DAF66490034D244 /* LLQTabBarController.swift */; };
 		9F42EF8C1DB44F7900B4A9E1 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EF8B1DB44F7900B4A9E1 /* BaseModel.swift */; };
 		9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */; };
+		9F42EFE51DB4BC3F00B4A9E1 /* buy_new.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFCE1DB4BC3F00B4A9E1 /* buy_new.json */; };
+		9F42EFE61DB4BC3F00B4A9E1 /* buy_now.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFCF1DB4BC3F00B4A9E1 /* buy_now.json */; };
+		9F42EFE71DB4BC3F00B4A9E1 /* cinema.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD01DB4BC3F00B4A9E1 /* cinema.json */; };
+		9F42EFE81DB4BC3F00B4A9E1 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD11DB4BC3F00B4A9E1 /* cities.json */; };
+		9F42EFE91DB4BC3F00B4A9E1 /* criticism.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD21DB4BC3F00B4A9E1 /* criticism.json */; };
+		9F42EFEA1DB4BC3F00B4A9E1 /* find_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD31DB4BC3F00B4A9E1 /* find_news.json */; };
+		9F42EFEB1DB4BC3F00B4A9E1 /* find_news2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD41DB4BC3F00B4A9E1 /* find_news2.json */; };
+		9F42EFEC1DB4BC3F00B4A9E1 /* home_header.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD51DB4BC3F00B4A9E1 /* home_header.json */; };
+		9F42EFED1DB4BC3F00B4A9E1 /* home_hot.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD61DB4BC3F00B4A9E1 /* home_hot.json */; };
+		9F42EFEE1DB4BC3F00B4A9E1 /* image_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD71DB4BC3F00B4A9E1 /* image_news.json */; };
+		9F42EFEF1DB4BC3F00B4A9E1 /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD81DB4BC3F00B4A9E1 /* news.html */; };
+		9F42EFF01DB4BC3F00B4A9E1 /* newsDetail1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFD91DB4BC3F00B4A9E1 /* newsDetail1.json */; };
+		9F42EFF11DB4BC3F00B4A9E1 /* newsDetail2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDA1DB4BC3F00B4A9E1 /* newsDetail2.json */; };
+		9F42EFF21DB4BC3F00B4A9E1 /* outher.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDB1DB4BC3F00B4A9E1 /* outher.json */; };
+		9F42EFF31DB4BC3F00B4A9E1 /* rank1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDC1DB4BC3F00B4A9E1 /* rank1.json */; };
+		9F42EFF41DB4BC3F00B4A9E1 /* rank2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDD1DB4BC3F00B4A9E1 /* rank2.json */; };
+		9F42EFF51DB4BC3F00B4A9E1 /* 今日热点.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDE1DB4BC3F00B4A9E1 /* 今日热点.json */; };
+		9F42EFF61DB4BC3F00B4A9E1 /* 捉妖记.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFDF1DB4BC3F00B4A9E1 /* 捉妖记.mp4 */; };
+		9F42EFF71DB4BC3F00B4A9E1 /* 明星.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFE01DB4BC3F00B4A9E1 /* 明星.json */; };
+		9F42EFF81DB4BC3F00B4A9E1 /* 蚁人.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFE11DB4BC3F00B4A9E1 /* 蚁人.mp4 */; };
+		9F42EFF91DB4BC3F00B4A9E1 /* 评论.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFE21DB4BC3F00B4A9E1 /* 评论.json */; };
+		9F42EFFA1DB4BC3F00B4A9E1 /* 道士下山.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFE31DB4BC3F00B4A9E1 /* 道士下山.mp4 */; };
+		9F42EFFB1DB4BC3F00B4A9E1 /* 预告.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F42EFE41DB4BC3F00B4A9E1 /* 预告.json */; };
+		9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F42EFFC1DB4BD0500B4A9E1 /* HomeModel.swift */; };
 		9F43871F1DB09ADA00130F5E /* actor_detail_top_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */; };
 		9F4387201DB09ADA00130F5E /* bg_mtime_star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */; };
 		9F4387211DB09ADA00130F5E /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386501DB09AD900130F5E /* discover@2x.png */; };
@@ -306,6 +330,30 @@
 		9F399C021DAF66490034D244 /* LLQTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLQTabBarController.swift; sourceTree = "<group>"; };
 		9F42EF8B1DB44F7900B4A9E1 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFromJson.swift; sourceTree = "<group>"; };
+		9F42EFCE1DB4BC3F00B4A9E1 /* buy_new.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buy_new.json; sourceTree = "<group>"; };
+		9F42EFCF1DB4BC3F00B4A9E1 /* buy_now.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = buy_now.json; sourceTree = "<group>"; };
+		9F42EFD01DB4BC3F00B4A9E1 /* cinema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cinema.json; sourceTree = "<group>"; };
+		9F42EFD11DB4BC3F00B4A9E1 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		9F42EFD21DB4BC3F00B4A9E1 /* criticism.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = criticism.json; sourceTree = "<group>"; };
+		9F42EFD31DB4BC3F00B4A9E1 /* find_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = find_news.json; sourceTree = "<group>"; };
+		9F42EFD41DB4BC3F00B4A9E1 /* find_news2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = find_news2.json; sourceTree = "<group>"; };
+		9F42EFD51DB4BC3F00B4A9E1 /* home_header.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_header.json; sourceTree = "<group>"; };
+		9F42EFD61DB4BC3F00B4A9E1 /* home_hot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home_hot.json; sourceTree = "<group>"; };
+		9F42EFD71DB4BC3F00B4A9E1 /* image_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = image_news.json; sourceTree = "<group>"; };
+		9F42EFD81DB4BC3F00B4A9E1 /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
+		9F42EFD91DB4BC3F00B4A9E1 /* newsDetail1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newsDetail1.json; sourceTree = "<group>"; };
+		9F42EFDA1DB4BC3F00B4A9E1 /* newsDetail2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = newsDetail2.json; sourceTree = "<group>"; };
+		9F42EFDB1DB4BC3F00B4A9E1 /* outher.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = outher.json; sourceTree = "<group>"; };
+		9F42EFDC1DB4BC3F00B4A9E1 /* rank1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rank1.json; sourceTree = "<group>"; };
+		9F42EFDD1DB4BC3F00B4A9E1 /* rank2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rank2.json; sourceTree = "<group>"; };
+		9F42EFDE1DB4BC3F00B4A9E1 /* 今日热点.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "今日热点.json"; sourceTree = "<group>"; };
+		9F42EFDF1DB4BC3F00B4A9E1 /* 捉妖记.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "捉妖记.mp4"; sourceTree = "<group>"; };
+		9F42EFE01DB4BC3F00B4A9E1 /* 明星.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "明星.json"; sourceTree = "<group>"; };
+		9F42EFE11DB4BC3F00B4A9E1 /* 蚁人.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蚁人.mp4"; sourceTree = "<group>"; };
+		9F42EFE21DB4BC3F00B4A9E1 /* 评论.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "评论.json"; sourceTree = "<group>"; };
+		9F42EFE31DB4BC3F00B4A9E1 /* 道士下山.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "道士下山.mp4"; sourceTree = "<group>"; };
+		9F42EFE41DB4BC3F00B4A9E1 /* 预告.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "预告.json"; sourceTree = "<group>"; };
+		9F42EFFC1DB4BD0500B4A9E1 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actor_detail_top_background.jpg; sourceTree = "<group>"; };
 		9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_mtime_star.jpg; sourceTree = "<group>"; };
 		9F4386501DB09AD900130F5E /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
@@ -614,6 +662,7 @@
 				9F4387E81DB0A08E00130F5E /* Main */,
 				9F399BD61DAF5ABB0034D244 /* Assets.xcassets */,
 				9F43864C1DB09AD900130F5E /* images */,
+				9F42EFCD1DB4BC3F00B4A9E1 /* json资料 */,
 				9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */,
 				9F399BDB1DAF5ABB0034D244 /* Info.plist */,
 			);
@@ -648,6 +697,36 @@
 				9F42EF911DB4816900B4A9E1 /* CoreDataFromJson.swift */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		9F42EFCD1DB4BC3F00B4A9E1 /* json资料 */ = {
+			isa = PBXGroup;
+			children = (
+				9F42EFCE1DB4BC3F00B4A9E1 /* buy_new.json */,
+				9F42EFCF1DB4BC3F00B4A9E1 /* buy_now.json */,
+				9F42EFD01DB4BC3F00B4A9E1 /* cinema.json */,
+				9F42EFD11DB4BC3F00B4A9E1 /* cities.json */,
+				9F42EFD21DB4BC3F00B4A9E1 /* criticism.json */,
+				9F42EFD31DB4BC3F00B4A9E1 /* find_news.json */,
+				9F42EFD41DB4BC3F00B4A9E1 /* find_news2.json */,
+				9F42EFD51DB4BC3F00B4A9E1 /* home_header.json */,
+				9F42EFD61DB4BC3F00B4A9E1 /* home_hot.json */,
+				9F42EFD71DB4BC3F00B4A9E1 /* image_news.json */,
+				9F42EFD81DB4BC3F00B4A9E1 /* news.html */,
+				9F42EFD91DB4BC3F00B4A9E1 /* newsDetail1.json */,
+				9F42EFDA1DB4BC3F00B4A9E1 /* newsDetail2.json */,
+				9F42EFDB1DB4BC3F00B4A9E1 /* outher.json */,
+				9F42EFDC1DB4BC3F00B4A9E1 /* rank1.json */,
+				9F42EFDD1DB4BC3F00B4A9E1 /* rank2.json */,
+				9F42EFDE1DB4BC3F00B4A9E1 /* 今日热点.json */,
+				9F42EFDF1DB4BC3F00B4A9E1 /* 捉妖记.mp4 */,
+				9F42EFE01DB4BC3F00B4A9E1 /* 明星.json */,
+				9F42EFE11DB4BC3F00B4A9E1 /* 蚁人.mp4 */,
+				9F42EFE21DB4BC3F00B4A9E1 /* 评论.json */,
+				9F42EFE31DB4BC3F00B4A9E1 /* 道士下山.mp4 */,
+				9F42EFE41DB4BC3F00B4A9E1 /* 预告.json */,
+			);
+			path = "json资料";
 			sourceTree = "<group>";
 		};
 		9F43864C1DB09AD900130F5E /* images */ = {
@@ -996,6 +1075,7 @@
 		9F4387EE1DB0A14900130F5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F42EFFC1DB4BD0500B4A9E1 /* HomeModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1386,6 +1466,7 @@
 				9F43886D1DB0B34900130F5E /* tab_bg_all.png in Resources */,
 				9F43878F1DB09ADA00130F5E /* pic_movielist_pressed_title.9.png in Resources */,
 				9F4388621DB0B34900130F5E /* selectTabbar_bg_all@2x.png in Resources */,
+				9F42EFFA1DB4BC3F00B4A9E1 /* 道士下山.mp4 in Resources */,
 				9F4387931DB09ADA00130F5E /* v10_GlobalTopList@3x.png in Resources */,
 				9F4387D91DB09ADA00130F5E /* light@2x.png in Resources */,
 				9F43877C1DB09ADA00130F5E /* icon_my_movie_order@3x.png in Resources */,
@@ -1421,12 +1502,14 @@
 				9F43874B1DB09ADA00130F5E /* gray@2x.png in Resources */,
 				9F4387921DB09ADA00130F5E /* v10_GlobalTopList@2x.png in Resources */,
 				9F4388691DB0B34900130F5E /* Contents.json in Resources */,
+				9F42EFFB1DB4BC3F00B4A9E1 /* 预告.json in Resources */,
 				9F4387521DB09ADA00130F5E /* filter_on@2x.png in Resources */,
 				9F4388521DB0B34900130F5E /* Contents.json in Resources */,
 				9F43884C1DB0B34900130F5E /* Contents.json in Resources */,
 				9F4388641DB0B34900130F5E /* selectTabbar_bg_all1.png in Resources */,
 				9F4387C01DB09ADA00130F5E /* wizard3_920.jpg in Resources */,
 				9F4387981DB09ADA00130F5E /* commentMsgBg@2x.png in Resources */,
+				9F42EFE61DB4BC3F00B4A9E1 /* buy_now.json in Resources */,
 				9F4387CE1DB09ADA00130F5E /* icon_default_375x140@2x.png in Resources */,
 				9F43878E1DB09ADA00130F5E /* pic_movielist_pressed.9.png in Resources */,
 				9F4388581DB0B34900130F5E /* Contents.json in Resources */,
@@ -1454,6 +1537,7 @@
 				9F43873A1DB09ADA00130F5E /* selectTabbar_bg_all.png in Resources */,
 				9F4387DF1DB09ADA00130F5E /* movie_select_home@2x.png in Resources */,
 				9F43885A1DB0B34900130F5E /* payticket@3x.png in Resources */,
+				9F42EFED1DB4BC3F00B4A9E1 /* home_hot.json in Resources */,
 				9F4387BE1DB09ADA00130F5E /* wizard2_920.jpg in Resources */,
 				9F4387811DB09ADA00130F5E /* img_btn_green_half.9.png in Resources */,
 				9F4387A71DB09ADA00130F5E /* icon_hot_show_IMAX@3x.png in Resources */,
@@ -1472,8 +1556,10 @@
 				9F4387D61DB09ADA00130F5E /* indexBG_home.png in Resources */,
 				9F4387D01DB09ADA00130F5E /* index_menu_ciname.png in Resources */,
 				9F4387B81DB09ADA00130F5E /* wizard3_568@2x.jpg in Resources */,
+				9F42EFEB1DB4BC3F00B4A9E1 /* find_news2.json in Resources */,
 				9F4388551DB0B34900130F5E /* Contents.json in Resources */,
 				9F4387311DB09ADA00130F5E /* nav_bg_all-64@2x.png in Resources */,
+				9F42EFF11DB4BC3F00B4A9E1 /* newsDetail2.json in Resources */,
 				9F43872A1DB09ADA00130F5E /* info_top_bj.jpg in Resources */,
 				9F4387CA1DB09ADA00130F5E /* icon_button_buy_ticket@3x.png in Resources */,
 				9F4387761DB09ADA00130F5E /* icon_my_coupon@3x .png in Resources */,
@@ -1486,17 +1572,20 @@
 				9F4387BB1DB09ADA00130F5E /* wizard1_1096.jpg in Resources */,
 				9F4387881DB09ADA00130F5E /* pic_ico_collection.png in Resources */,
 				9F43876F1DB09ADA00130F5E /* icon_my_card@2x.png in Resources */,
+				9F42EFF41DB4BC3F00B4A9E1 /* rank2.json in Resources */,
 				9F4387481DB09ADA00130F5E /* Default@2x.png in Resources */,
 				9F43879E1DB09ADA00130F5E /* icon_3D@2x.png in Resources */,
 				9F4387731DB09ADA00130F5E /* icon_my_collection@2x.png in Resources */,
 				9F4387A61DB09ADA00130F5E /* icon_hot_show_IMAX@2x.png in Resources */,
 				9F4387351DB09ADA00130F5E /* payticket@3x.png in Resources */,
+				9F42EFEF1DB4BC3F00B4A9E1 /* news.html in Resources */,
 				9F43872E1DB09ADA00130F5E /* myinfo_on@2x.png in Resources */,
 				9F4387AC1DB09ADA00130F5E /* icon_movie_3d@3x.png in Resources */,
 				9F4387651DB09ADA00130F5E /* v10_18_VIP@2x.png in Resources */,
 				9F43878C1DB09ADA00130F5E /* pic_movielist_bg.9.png in Resources */,
 				9F4387541DB09ADA00130F5E /* icon_kiosk@2x.png in Resources */,
 				9F4387D71DB09ADA00130F5E /* indexBG_home@2x.png in Resources */,
+				9F42EFEE1DB4BC3F00B4A9E1 /* image_news.json in Resources */,
 				9F4387781DB09ADA00130F5E /* icon_my_goods_order@3x.png in Resources */,
 				9F4387D41DB09ADA00130F5E /* index_menu_more.png in Resources */,
 				9F4387A81DB09ADA00130F5E /* icon_hot_show_quote@2x.png in Resources */,
@@ -1510,7 +1599,9 @@
 				9F43876E1DB09ADA00130F5E /* icon_change_subway@3x.png in Resources */,
 				9F4387741DB09ADA00130F5E /* icon_my_collection@3x .png in Resources */,
 				9F4387E21DB09ADA00130F5E /* poster_title_home.png in Resources */,
+				9F42EFF51DB4BC3F00B4A9E1 /* 今日热点.json in Resources */,
 				9F43885E1DB0B34900130F5E /* Contents.json in Resources */,
+				9F42EFE81DB4BC3F00B4A9E1 /* cities.json in Resources */,
 				9F4387401DB09ADA00130F5E /* store@3x.png in Resources */,
 				9F4387AD1DB09ADA00130F5E /* icon_movie_imax@2x.png in Resources */,
 				9F4387C41DB09ADA00130F5E /* cell_bg_home.tiff in Resources */,
@@ -1525,6 +1616,7 @@
 				9F4387341DB09ADA00130F5E /* payticket@2x.png in Resources */,
 				9F43877F1DB09ADA00130F5E /* icon_preview_play@2x.png in Resources */,
 				9F4387241DB09ADA00130F5E /* discover_on@3x.png in Resources */,
+				9F42EFF01DB4BC3F00B4A9E1 /* newsDetail1.json in Resources */,
 				9F4387C81DB09ADA00130F5E /* home_center.png in Resources */,
 				9F4387C71DB09ADA00130F5E /* exchange_bg_home@2x.png in Resources */,
 				9F4387411DB09ADA00130F5E /* store_on@2x.png in Resources */,
@@ -1537,6 +1629,7 @@
 				9F4387E71DB09ADA00130F5E /* up_home@2x.png in Resources */,
 				9F4387E61DB09ADA00130F5E /* up_home.png in Resources */,
 				9F43876B1DB09ADA00130F5E /* icon_avatar_not_login@2x.png in Resources */,
+				9F42EFF61DB4BC3F00B4A9E1 /* 捉妖记.mp4 in Resources */,
 				9F4387A51DB09ADA00130F5E /* icon_hot_show_IMAX3D@3x.png in Resources */,
 				9F43876D1DB09ADA00130F5E /* icon_change_subway@2x.png in Resources */,
 				9F4387281DB09ADA00130F5E /* home_on@3x.png in Resources */,
@@ -1558,17 +1651,21 @@
 				9F4387471DB09ADA00130F5E /* Default.png in Resources */,
 				9F4388591DB0B34900130F5E /* payticket@2x.png in Resources */,
 				9F43878B1DB09ADA00130F5E /* pic_ico_star_green.png in Resources */,
+				9F42EFE71DB4BC3F00B4A9E1 /* cinema.json in Resources */,
 				9F4387C21DB09ADA00130F5E /* btn_recharge@2x.png in Resources */,
 				9F4387B41DB09ADA00130F5E /* wizard1_568@2x.jpg in Resources */,
 				9F4387631DB09ADA00130F5E /* v10_18_serviceTicket@2x.png in Resources */,
 				9F4388571DB0B34900130F5E /* myinfo_on@3x.png in Resources */,
 				9F4388461DB0B34900130F5E /* Contents.json in Resources */,
+				9F42EFF81DB4BC3F00B4A9E1 /* 蚁人.mp4 in Resources */,
 				9F4387AB1DB09ADA00130F5E /* icon_movie_3d@2x.png in Resources */,
 				9F4387CC1DB09ADA00130F5E /* icon_button_see_movieInfo@3x.png in Resources */,
 				9F4387441DB09ADA00130F5E /* tab_bg_all@2x.png in Resources */,
 				9F4387321DB09ADA00130F5E /* nav_bg_all.png in Resources */,
+				9F42EFF91DB4BC3F00B4A9E1 /* 评论.json in Resources */,
 				9F4387531DB09ADA00130F5E /* filter_on@3x.png in Resources */,
 				9F4388451DB0B34900130F5E /* Contents.json in Resources */,
+				9F42EFEC1DB4BC3F00B4A9E1 /* home_header.json in Resources */,
 				9F4387B01DB09ADA00130F5E /* icon_showing_movie@3x.png in Resources */,
 				9F4387D31DB09ADA00130F5E /* index_menu_home_on.png in Resources */,
 				9F43871F1DB09ADA00130F5E /* actor_detail_top_background.jpg in Resources */,
@@ -1578,6 +1675,7 @@
 				9F43886F1DB0B34900130F5E /* Contents.json in Resources */,
 				9F4387A31DB09ADA00130F5E /* icon_hot_show_DMAX@3X.png in Resources */,
 				9F4388491DB0B34900130F5E /* Contents.json in Resources */,
+				9F42EFF31DB4BC3F00B4A9E1 /* rank1.json in Resources */,
 				9F4387A21DB09ADA00130F5E /* icon_hot_show_DMAX@2x.png in Resources */,
 				9F4387D51DB09ADA00130F5E /* index_menu_top.png in Resources */,
 				9F4387DD1DB09ADA00130F5E /* movie_home@2x.png in Resources */,
@@ -1593,6 +1691,7 @@
 				9F4387DA1DB09ADA00130F5E /* list_home.png in Resources */,
 				9F43877B1DB09ADA00130F5E /* icon_my_movie_order@2x.png in Resources */,
 				9F4387E31DB09ADA00130F5E /* poster_title_home@2x.png in Resources */,
+				9F42EFF71DB4BC3F00B4A9E1 /* 明星.json in Resources */,
 				9F4388681DB0B34900130F5E /* store@3x.png in Resources */,
 				9F43873B1DB09ADA00130F5E /* selectTabbar_bg_all1.png in Resources */,
 				9F4387C61DB09ADA00130F5E /* down_home@2x.png in Resources */,
@@ -1608,18 +1707,22 @@
 				9F4387BD1DB09ADA00130F5E /* wizard2_1096.jpg in Resources */,
 				9F4387451DB09ADA00130F5E /* topmenu_tab_bg.png in Resources */,
 				9F4387271DB09ADA00130F5E /* home_on@2x.png in Resources */,
+				9F42EFF21DB4BC3F00B4A9E1 /* outher.json in Resources */,
 				9F43885C1DB0B34900130F5E /* payticket_on@2x.png in Resources */,
 				9F4388501DB0B34900130F5E /* home_on@2x.png in Resources */,
 				9F43884E1DB0B34900130F5E /* home@3x.png in Resources */,
 				9F4387821DB09ADA00130F5E /* img_btn_green_half_press.9.png in Resources */,
+				9F42EFE51DB4BC3F00B4A9E1 /* buy_new.json in Resources */,
 				9F4387DE1DB09ADA00130F5E /* movie_select_home.png in Resources */,
 				9F43874D1DB09ADA00130F5E /* bus.png in Resources */,
 				9F43872C1DB09ADA00130F5E /* myinfo@2x.png in Resources */,
 				9F4387231DB09ADA00130F5E /* discover_on@2x.png in Resources */,
 				9F4388671DB0B34900130F5E /* store@2x.png in Resources */,
+				9F42EFEA1DB4BC3F00B4A9E1 /* find_news.json in Resources */,
 				9F4387581DB09ADA00130F5E /* icon_slider_max@2x.png in Resources */,
 				9F43879C1DB09ADA00130F5E /* ele_ablum_borline.png in Resources */,
 				9F4387841DB09ADA00130F5E /* img_btn_orange_half_press.9.png in Resources */,
+				9F42EFE91DB4BC3F00B4A9E1 /* criticism.json in Resources */,
 				9F4387461DB09ADA00130F5E /* window.png in Resources */,
 				9F4387961DB09ADA00130F5E /* color_line.png in Resources */,
 				9F4387BC1DB09ADA00130F5E /* wizard1_920.jpg in Resources */,
@@ -1664,6 +1767,7 @@
 				9F4388021DB0A30100130F5E /* PayTicketViewController.swift in Sources */,
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
 				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
+				9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */,
 				9F4388081DB0A36B00130F5E /* MyInfoViewController.swift in Sources */,
 				9F4387FE1DB0A22100130F5E /* BaseViewController.swift in Sources */,
 				9F4388061DB0A35A00130F5E /* DiscoverViewController.swift in Sources */,
