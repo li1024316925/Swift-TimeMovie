@@ -68,10 +68,11 @@ extension HomeViewController : UITableViewDelegate,UITableViewDataSource{
     
     //返回单元格
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "")
+        var cell = tableView.dequeueReusableCell(withIdentifier: "HomeTableViewCell") as? HomeTableViewCell
         if cell == nil {
-            cell = Bundle.main.loadNibNamed("HomeTableViewCell", owner: nil, options: nil)?[0] as? UITableViewCell
+            cell = Bundle.main.loadNibNamed("HomeTableViewCell", owner: nil, options: nil)?[0] as? HomeTableViewCell
         }
+        cell?.homeModel = dataList[indexPath.row]
         
         return cell!
     }

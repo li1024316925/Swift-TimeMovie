@@ -48,7 +48,7 @@
 		9F43871F1DB09ADA00130F5E /* actor_detail_top_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */; };
 		9F4387201DB09ADA00130F5E /* bg_mtime_star.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */; };
 		9F4387211DB09ADA00130F5E /* discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386501DB09AD900130F5E /* discover@2x.png */; };
-		9F4387221DB09ADA00130F5E /* discover@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386511DB09AD900130F5E /* discover@3x.png */; };
+		9F4387221DB09ADA00130F5E /* discover1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386511DB09AD900130F5E /* discover1@3x.png */; };
 		9F4387231DB09ADA00130F5E /* discover_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386521DB09AD900130F5E /* discover_on@2x.png */; };
 		9F4387241DB09ADA00130F5E /* discover_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386531DB09AD900130F5E /* discover_on@3x.png */; };
 		9F4387251DB09ADA00130F5E /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386541DB09AD900130F5E /* home@2x.png */; };
@@ -59,7 +59,7 @@
 		9F43872A1DB09ADA00130F5E /* info_top_bj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F4386591DB09AD900130F5E /* info_top_bj.jpg */; };
 		9F43872B1DB09ADA00130F5E /* mine_main_title_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865A1DB09AD900130F5E /* mine_main_title_bg.png */; };
 		9F43872C1DB09ADA00130F5E /* myinfo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865B1DB09AD900130F5E /* myinfo@2x.png */; };
-		9F43872D1DB09ADA00130F5E /* myinfo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865C1DB09AD900130F5E /* myinfo@3x.png */; };
+		9F43872D1DB09ADA00130F5E /* myinfo1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865C1DB09AD900130F5E /* myinfo1@3x.png */; };
 		9F43872E1DB09ADA00130F5E /* myinfo_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865D1DB09AD900130F5E /* myinfo_on@2x.png */; };
 		9F43872F1DB09ADA00130F5E /* myinfo_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865E1DB09AD900130F5E /* myinfo_on@3x.png */; };
 		9F4387301DB09ADA00130F5E /* nav_bg_all-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43865F1DB09AD900130F5E /* nav_bg_all-64.png */; };
@@ -273,7 +273,7 @@
 		9F4388571DB0B34900130F5E /* myinfo_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388221DB0B34800130F5E /* myinfo_on@3x.png */; };
 		9F4388581DB0B34900130F5E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388241DB0B34800130F5E /* Contents.json */; };
 		9F4388591DB0B34900130F5E /* payticket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388251DB0B34800130F5E /* payticket@2x.png */; };
-		9F43885A1DB0B34900130F5E /* payticket@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388261DB0B34800130F5E /* payticket@3x.png */; };
+		9F43885A1DB0B34900130F5E /* payticket1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388261DB0B34800130F5E /* payticket1@3x.png */; };
 		9F43885B1DB0B34900130F5E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388281DB0B34800130F5E /* Contents.json */; };
 		9F43885C1DB0B34900130F5E /* payticket_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388291DB0B34800130F5E /* payticket_on@2x.png */; };
 		9F43885D1DB0B34900130F5E /* payticket_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F43882A1DB0B34800130F5E /* payticket_on@3x.png */; };
@@ -296,6 +296,7 @@
 		9F43886E1DB0B34900130F5E /* tab_bg_all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388411DB0B34900130F5E /* tab_bg_all@2x.png */; };
 		9F43886F1DB0B34900130F5E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388431DB0B34900130F5E /* Contents.json */; };
 		9F4388701DB0B34900130F5E /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388441DB0B34900130F5E /* 选中.png */; };
+		A144459829A634A8635032DC /* libPods-SwiftTimeMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -316,19 +317,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTimeMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F37F8CB1DB5AE8600A55ACD /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		9F37F8CF1DB5BB2400A55ACD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		9F37F8D01DB5BB2400A55ACD /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		9F37F8D31DB5FF5B00A55ACD /* SwiftTimeMovie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTimeMovie-Bridging-Header.h"; sourceTree = "<group>"; };
 		9F399BCC1DAF5ABB0034D244 /* SwiftTimeMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTimeMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F399BD11DAF5ABB0034D244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F399BD61DAF5ABB0034D244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F399BD91DAF5ABB0034D244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F399BDB1DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F399BE01DAF5ABB0034D244 /* Swift-TimeMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TimeMovieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F399BE01DAF5ABB0034D244 /* SwiftTimeMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTimeMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BE41DAF5ABB0034D244 /* Swift_TimeMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TimeMovieTests.swift; sourceTree = "<group>"; };
 		9F399BE61DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F399BEB1DAF5ABB0034D244 /* Swift-TimeMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TimeMovieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F399BEB1DAF5ABB0034D244 /* SwiftTimeMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTimeMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BEF1DAF5ABB0034D244 /* Swift_TimeMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TimeMovieUITests.swift; sourceTree = "<group>"; };
 		9F399BF11DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F399BFD1DAF5BC40034D244 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -363,7 +366,7 @@
 		9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actor_detail_top_background.jpg; sourceTree = "<group>"; };
 		9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg_mtime_star.jpg; sourceTree = "<group>"; };
 		9F4386501DB09AD900130F5E /* discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@2x.png"; sourceTree = "<group>"; };
-		9F4386511DB09AD900130F5E /* discover@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover@3x.png"; sourceTree = "<group>"; };
+		9F4386511DB09AD900130F5E /* discover1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover1@3x.png"; sourceTree = "<group>"; };
 		9F4386521DB09AD900130F5E /* discover_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover_on@2x.png"; sourceTree = "<group>"; };
 		9F4386531DB09AD900130F5E /* discover_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "discover_on@3x.png"; sourceTree = "<group>"; };
 		9F4386541DB09AD900130F5E /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
@@ -374,7 +377,7 @@
 		9F4386591DB09AD900130F5E /* info_top_bj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = info_top_bj.jpg; sourceTree = "<group>"; };
 		9F43865A1DB09AD900130F5E /* mine_main_title_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mine_main_title_bg.png; sourceTree = "<group>"; };
 		9F43865B1DB09AD900130F5E /* myinfo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo@2x.png"; sourceTree = "<group>"; };
-		9F43865C1DB09AD900130F5E /* myinfo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo@3x.png"; sourceTree = "<group>"; };
+		9F43865C1DB09AD900130F5E /* myinfo1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo1@3x.png"; sourceTree = "<group>"; };
 		9F43865D1DB09AD900130F5E /* myinfo_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo_on@2x.png"; sourceTree = "<group>"; };
 		9F43865E1DB09AD900130F5E /* myinfo_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo_on@3x.png"; sourceTree = "<group>"; };
 		9F43865F1DB09AD900130F5E /* nav_bg_all-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_bg_all-64.png"; sourceTree = "<group>"; };
@@ -588,7 +591,7 @@
 		9F4388221DB0B34800130F5E /* myinfo_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myinfo_on@3x.png"; sourceTree = "<group>"; };
 		9F4388241DB0B34800130F5E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		9F4388251DB0B34800130F5E /* payticket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payticket@2x.png"; sourceTree = "<group>"; };
-		9F4388261DB0B34800130F5E /* payticket@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payticket@3x.png"; sourceTree = "<group>"; };
+		9F4388261DB0B34800130F5E /* payticket1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payticket1@3x.png"; sourceTree = "<group>"; };
 		9F4388281DB0B34800130F5E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		9F4388291DB0B34800130F5E /* payticket_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payticket_on@2x.png"; sourceTree = "<group>"; };
 		9F43882A1DB0B34800130F5E /* payticket_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payticket_on@3x.png"; sourceTree = "<group>"; };
@@ -611,6 +614,8 @@
 		9F4388411DB0B34900130F5E /* tab_bg_all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bg_all@2x.png"; sourceTree = "<group>"; };
 		9F4388431DB0B34900130F5E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		9F4388441DB0B34900130F5E /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
+		D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTimeMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie.release.xcconfig"; sourceTree = "<group>"; };
+		DC07CE95F14ABAF48D0DB139 /* Pods-SwiftTimeMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTimeMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -618,6 +623,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A144459829A634A8635032DC /* libPods-SwiftTimeMovie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +644,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		059C50D118F5A666B4A250B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8269559C0B30A57B7D274CCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC07CE95F14ABAF48D0DB139 /* Pods-SwiftTimeMovie.debug.xcconfig */,
+				D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F37F8CA1DB5AE5B00A55ACD /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -653,6 +676,8 @@
 				9F399BE31DAF5ABB0034D244 /* Swift-TimeMovieTests */,
 				9F399BEE1DAF5ABB0034D244 /* Swift-TimeMovieUITests */,
 				9F399BCD1DAF5ABB0034D244 /* Products */,
+				8269559C0B30A57B7D274CCC /* Pods */,
+				059C50D118F5A666B4A250B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -660,8 +685,8 @@
 			isa = PBXGroup;
 			children = (
 				9F399BCC1DAF5ABB0034D244 /* SwiftTimeMovie.app */,
-				9F399BE01DAF5ABB0034D244 /* Swift-TimeMovieTests.xctest */,
-				9F399BEB1DAF5ABB0034D244 /* Swift-TimeMovieUITests.xctest */,
+				9F399BE01DAF5ABB0034D244 /* SwiftTimeMovieTests.xctest */,
+				9F399BEB1DAF5ABB0034D244 /* SwiftTimeMovieUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -679,6 +704,7 @@
 				9F42EFCD1DB4BC3F00B4A9E1 /* json资料 */,
 				9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */,
 				9F399BDB1DAF5ABB0034D244 /* Info.plist */,
+				9F37F8D31DB5FF5B00A55ACD /* SwiftTimeMovie-Bridging-Header.h */,
 			);
 			path = "Swift-TimeMovie";
 			sourceTree = "<group>";
@@ -766,7 +792,7 @@
 				9F43864E1DB09AD900130F5E /* actor_detail_top_background.jpg */,
 				9F43864F1DB09AD900130F5E /* bg_mtime_star.jpg */,
 				9F4386501DB09AD900130F5E /* discover@2x.png */,
-				9F4386511DB09AD900130F5E /* discover@3x.png */,
+				9F4386511DB09AD900130F5E /* discover1@3x.png */,
 				9F4386521DB09AD900130F5E /* discover_on@2x.png */,
 				9F4386531DB09AD900130F5E /* discover_on@3x.png */,
 				9F4386541DB09AD900130F5E /* home@2x.png */,
@@ -777,7 +803,7 @@
 				9F4386591DB09AD900130F5E /* info_top_bj.jpg */,
 				9F43865A1DB09AD900130F5E /* mine_main_title_bg.png */,
 				9F43865B1DB09AD900130F5E /* myinfo@2x.png */,
-				9F43865C1DB09AD900130F5E /* myinfo@3x.png */,
+				9F43865C1DB09AD900130F5E /* myinfo1@3x.png */,
 				9F43865D1DB09AD900130F5E /* myinfo_on@2x.png */,
 				9F43865E1DB09AD900130F5E /* myinfo_on@3x.png */,
 				9F43865F1DB09AD900130F5E /* nav_bg_all-64.png */,
@@ -1288,7 +1314,7 @@
 			children = (
 				9F4388241DB0B34800130F5E /* Contents.json */,
 				9F4388251DB0B34800130F5E /* payticket@2x.png */,
-				9F4388261DB0B34800130F5E /* payticket@3x.png */,
+				9F4388261DB0B34800130F5E /* payticket1@3x.png */,
 			);
 			path = payticket.imageset;
 			sourceTree = "<group>";
@@ -1374,26 +1400,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F399BCB1DAF5ABB0034D244 /* Swift-TimeMovie */ = {
+		9F399BCB1DAF5ABB0034D244 /* SwiftTimeMovie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F399BF41DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovie" */;
+			buildConfigurationList = 9F399BF41DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovie" */;
 			buildPhases = (
+				82D4F1CEA1499A109DB6CD52 /* [CP] Check Pods Manifest.lock */,
 				9F399BC81DAF5ABB0034D244 /* Sources */,
 				9F399BC91DAF5ABB0034D244 /* Frameworks */,
 				9F399BCA1DAF5ABB0034D244 /* Resources */,
+				0D528B19F3835171D81C03C8 /* [CP] Embed Pods Frameworks */,
+				F2F2F9060455F477AB766F2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Swift-TimeMovie";
+			name = SwiftTimeMovie;
 			productName = "Swift-TimeMovie";
 			productReference = 9F399BCC1DAF5ABB0034D244 /* SwiftTimeMovie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F399BDF1DAF5ABB0034D244 /* Swift-TimeMovieTests */ = {
+		9F399BDF1DAF5ABB0034D244 /* SwiftTimeMovieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F399BF71DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovieTests" */;
+			buildConfigurationList = 9F399BF71DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovieTests" */;
 			buildPhases = (
 				9F399BDC1DAF5ABB0034D244 /* Sources */,
 				9F399BDD1DAF5ABB0034D244 /* Frameworks */,
@@ -1404,14 +1433,14 @@
 			dependencies = (
 				9F399BE21DAF5ABB0034D244 /* PBXTargetDependency */,
 			);
-			name = "Swift-TimeMovieTests";
+			name = SwiftTimeMovieTests;
 			productName = "Swift-TimeMovieTests";
-			productReference = 9F399BE01DAF5ABB0034D244 /* Swift-TimeMovieTests.xctest */;
+			productReference = 9F399BE01DAF5ABB0034D244 /* SwiftTimeMovieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9F399BEA1DAF5ABB0034D244 /* Swift-TimeMovieUITests */ = {
+		9F399BEA1DAF5ABB0034D244 /* SwiftTimeMovieUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F399BFA1DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovieUITests" */;
+			buildConfigurationList = 9F399BFA1DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovieUITests" */;
 			buildPhases = (
 				9F399BE71DAF5ABB0034D244 /* Sources */,
 				9F399BE81DAF5ABB0034D244 /* Frameworks */,
@@ -1422,9 +1451,9 @@
 			dependencies = (
 				9F399BED1DAF5ABB0034D244 /* PBXTargetDependency */,
 			);
-			name = "Swift-TimeMovieUITests";
+			name = SwiftTimeMovieUITests;
 			productName = "Swift-TimeMovieUITests";
-			productReference = 9F399BEB1DAF5ABB0034D244 /* Swift-TimeMovieUITests.xctest */;
+			productReference = 9F399BEB1DAF5ABB0034D244 /* SwiftTimeMovieUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1439,6 +1468,7 @@
 				TargetAttributes = {
 					9F399BCB1DAF5ABB0034D244 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					9F399BDF1DAF5ABB0034D244 = {
@@ -1455,7 +1485,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F399BC71DAF5ABB0034D244 /* Build configuration list for PBXProject "Swift-TimeMovie" */;
+			buildConfigurationList = 9F399BC71DAF5ABB0034D244 /* Build configuration list for PBXProject "SwiftTimeMovie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1468,9 +1498,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F399BCB1DAF5ABB0034D244 /* Swift-TimeMovie */,
-				9F399BDF1DAF5ABB0034D244 /* Swift-TimeMovieTests */,
-				9F399BEA1DAF5ABB0034D244 /* Swift-TimeMovieUITests */,
+				9F399BCB1DAF5ABB0034D244 /* SwiftTimeMovie */,
+				9F399BDF1DAF5ABB0034D244 /* SwiftTimeMovieTests */,
+				9F399BEA1DAF5ABB0034D244 /* SwiftTimeMovieUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1493,7 +1523,7 @@
 				9F4387BA1DB09ADA00130F5E /* wizard4_568@2x.jpg in Resources */,
 				9F43886A1DB0B34900130F5E /* store_on@2x.png in Resources */,
 				9F4387CF1DB09ADA00130F5E /* icon_default_375x140@3x.png in Resources */,
-				9F43872D1DB09ADA00130F5E /* myinfo@3x.png in Resources */,
+				9F43872D1DB09ADA00130F5E /* myinfo1@3x.png in Resources */,
 				9F4387671DB09ADA00130F5E /* v10_18_wifi@2x.png in Resources */,
 				9F4387611DB09ADA00130F5E /* v10_18_park@2x.png in Resources */,
 				9F4387941DB09ADA00130F5E /* v10_MtimeTop100@2x.png in Resources */,
@@ -1553,7 +1583,7 @@
 				9F4387211DB09ADA00130F5E /* discover@2x.png in Resources */,
 				9F43873A1DB09ADA00130F5E /* selectTabbar_bg_all.png in Resources */,
 				9F4387DF1DB09ADA00130F5E /* movie_select_home@2x.png in Resources */,
-				9F43885A1DB0B34900130F5E /* payticket@3x.png in Resources */,
+				9F43885A1DB0B34900130F5E /* payticket1@3x.png in Resources */,
 				9F42EFED1DB4BC3F00B4A9E1 /* home_hot.json in Resources */,
 				9F4387BE1DB09ADA00130F5E /* wizard2_920.jpg in Resources */,
 				9F4387811DB09ADA00130F5E /* img_btn_green_half.9.png in Resources */,
@@ -1610,7 +1640,7 @@
 				9F4387B11DB09ADA00130F5E /* icon_upcoming_movie@2x.png in Resources */,
 				9F4387511DB09ADA00130F5E /* filter@3x.png in Resources */,
 				9F4388611DB0B34900130F5E /* selectTabbar_bg_all.png in Resources */,
-				9F4387221DB09ADA00130F5E /* discover@3x.png in Resources */,
+				9F4387221DB09ADA00130F5E /* discover1@3x.png in Resources */,
 				9F4387751DB09ADA00130F5E /* icon_my_coupon@2x.png in Resources */,
 				9F4387D11DB09ADA00130F5E /* index_menu_coup.png in Resources */,
 				9F43876E1DB09ADA00130F5E /* icon_change_subway@3x.png in Resources */,
@@ -1770,6 +1800,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D528B19F3835171D81C03C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82D4F1CEA1499A109DB6CD52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F2F9060455F477AB766F2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F399BC81DAF5ABB0034D244 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1815,12 +1893,12 @@
 /* Begin PBXTargetDependency section */
 		9F399BE21DAF5ABB0034D244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F399BCB1DAF5ABB0034D244 /* Swift-TimeMovie */;
+			target = 9F399BCB1DAF5ABB0034D244 /* SwiftTimeMovie */;
 			targetProxy = 9F399BE11DAF5ABB0034D244 /* PBXContainerItemProxy */;
 		};
 		9F399BED1DAF5ABB0034D244 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F399BCB1DAF5ABB0034D244 /* Swift-TimeMovie */;
+			target = 9F399BCB1DAF5ABB0034D244 /* SwiftTimeMovie */;
 			targetProxy = 9F399BEC1DAF5ABB0034D244 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1855,6 +1933,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1905,6 +1984,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1932,28 +2012,35 @@
 		};
 		9F399BF51DAF5ABB0034D244 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC07CE95F14ABAF48D0DB139 /* Pods-SwiftTimeMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swift-TimeMovie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovie";
+				PRODUCT_BUNDLE_IDENTIFIER = LLQ.com.SwiftTimeMovie;
 				PRODUCT_NAME = SwiftTimeMovie;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-TimeMovie/SwiftTimeMovie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		9F399BF61DAF5ABB0034D244 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Swift-TimeMovie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovie";
+				PRODUCT_BUNDLE_IDENTIFIER = LLQ.com.SwiftTimeMovie;
 				PRODUCT_NAME = SwiftTimeMovie;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-TimeMovie/SwiftTimeMovie-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -1969,7 +2056,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovieTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-TimeMovie.app/Swift-TimeMovie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTimeMovie.app/SwiftTimeMovie";
 			};
 			name = Debug;
 		};
@@ -1984,7 +2071,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "LLQ.com.Swift-TimeMovieTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-TimeMovie.app/Swift-TimeMovie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTimeMovie.app/SwiftTimeMovie";
 			};
 			name = Release;
 		};
@@ -2019,7 +2106,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F399BC71DAF5ABB0034D244 /* Build configuration list for PBXProject "Swift-TimeMovie" */ = {
+		9F399BC71DAF5ABB0034D244 /* Build configuration list for PBXProject "SwiftTimeMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F399BF21DAF5ABB0034D244 /* Debug */,
@@ -2028,7 +2115,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F399BF41DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovie" */ = {
+		9F399BF41DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F399BF51DAF5ABB0034D244 /* Debug */,
@@ -2037,7 +2124,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F399BF71DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovieTests" */ = {
+		9F399BF71DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F399BF81DAF5ABB0034D244 /* Debug */,
@@ -2046,7 +2133,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F399BFA1DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "Swift-TimeMovieUITests" */ = {
+		9F399BFA1DAF5ABB0034D244 /* Build configuration list for PBXNativeTarget "SwiftTimeMovieUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F399BFB1DAF5ABB0034D244 /* Debug */,

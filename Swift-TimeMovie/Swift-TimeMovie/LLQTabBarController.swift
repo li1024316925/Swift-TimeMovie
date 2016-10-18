@@ -14,9 +14,9 @@ func kButtonWidth(object: UITabBarController) -> CGFloat {return kTabBarWidth(ob
 
 class LLQTabBarController: UITabBarController {
 
-    private var selectImgV:UIImageView? //存储选中图片
+    var selectImgV:UIImageView? //存储选中图片
     //按钮数组
-    private lazy var tabBarButtons:[UIButton] = {
+    lazy var tabBarButtons:[UIButton] = {
        return []
     }()
     
@@ -113,10 +113,10 @@ class LLQTabBarController: UITabBarController {
 //子类化一个按钮
 class VerticalButton: UIButton {
     
-    private var subLable:UILabel? //按钮标题
-    private var subImageView:UIImageView? //按钮的图片视图
-    private var normalImg:UIImage? //保存默认图片
-    private var selectImg:UIImage? //保存选中图片
+    var subLable:UILabel? //按钮标题
+    var subImageView:UIImageView? //按钮的图片视图
+    var normalImg:UIImage? //保存默认图片
+    var selectImg:UIImage? //保存选中图片
     
     
     //重写带frame参数的init构造方法

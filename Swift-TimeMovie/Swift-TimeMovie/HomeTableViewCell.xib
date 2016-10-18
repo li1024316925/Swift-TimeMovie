@@ -3,20 +3,69 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="88" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="SwiftTimeMovie" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="88"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeTableViewCell" rowHeight="88" id="KGk-i7-Jjw" customClass="HomeTableViewCell" customModule="SwiftTimeMovie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="320" height="87.5"/>
+                <frame key="frameInset" width="375" height="109.5"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wCI-Vg-576">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="QCJ-k6-gGQ"/>
+                            <constraint firstAttribute="width" constant="81" id="zSn-No-AuN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bem-Si-tsL">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="2fD-VE-Mlc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOs-1e-dFe">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="tzX-7N-Scj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.48627450979999998" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laS-a8-FTW">
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="7vF-OB-Avg"/>
+                            <constraint firstAttribute="width" constant="174" id="GQF-oT-fWt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wCI-Vg-576" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="8X4-M6-aNl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="uOs-1e-dFe" secondAttribute="trailing" constant="5" id="DDD-Ti-5cH"/>
+                    <constraint firstAttribute="trailing" secondItem="bem-Si-tsL" secondAttribute="trailing" id="DW2-jJ-yy0"/>
+                    <constraint firstItem="laS-a8-FTW" firstAttribute="top" secondItem="bem-Si-tsL" secondAttribute="bottom" constant="27" id="Gyd-oB-BpR"/>
+                    <constraint firstItem="uOs-1e-dFe" firstAttribute="leading" secondItem="laS-a8-FTW" secondAttribute="trailing" constant="10" id="JOv-N9-2ks"/>
+                    <constraint firstItem="wCI-Vg-576" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="JcX-hL-h3V"/>
+                    <constraint firstItem="bem-Si-tsL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="JvK-hz-P9U"/>
+                    <constraint firstItem="laS-a8-FTW" firstAttribute="leading" secondItem="wCI-Vg-576" secondAttribute="trailing" constant="8" id="V9t-ny-r7e"/>
+                    <constraint firstItem="bem-Si-tsL" firstAttribute="leading" secondItem="wCI-Vg-576" secondAttribute="trailing" constant="1" id="m7o-Rt-SUa"/>
+                    <constraint firstItem="uOs-1e-dFe" firstAttribute="top" secondItem="bem-Si-tsL" secondAttribute="bottom" constant="32" id="t87-b0-U7z"/>
+                </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-            <point key="canvasLocation" x="-17" y="-11"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="imgView" destination="wCI-Vg-576" id="LCk-0p-nI2"/>
+                <outlet property="ratingLable" destination="uOs-1e-dFe" id="6je-cx-iXu"/>
+                <outlet property="titleLable" destination="bem-Si-tsL" id="Orl-yg-bBN"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-30"/>
         </tableViewCell>
     </objects>
 </document>

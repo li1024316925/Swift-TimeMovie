@@ -10,9 +10,23 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var titleLable: UILabel!
+    @IBOutlet weak var ratingLable: UILabel!
+    
+    //赋值完成后调用
+    var homeModel:HomeModel?{
+        didSet{
+            
+            titleLable.text = homeModel?.titleCn
+            imgView.sd_setImage(with: URL(string: (homeModel?.img)!))
+            
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
