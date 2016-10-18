@@ -20,16 +20,14 @@ class BaseModel: NSObject {
         let attributDic = attributesDic(dic: dic)
         
         //Runtime获取本类属性
+        
         var count:UInt32 = 0
         let ivars = class_copyIvarList(self.classForCoder, &count)
         for i in 0..<count {
             //取出属性名
             let ivar = ivars?[Int(i)]
             let ivarName = ivar_getName(ivar!)
-            let ivarType = ivar_getTypeEncoding(ivar!)
             let nName = String(cString: ivarName!)
-            let nType = String(cString: ivarType!)
-            let valueTypes = NSClassFromString(nType)?.type
             //取出要赋值的值
             let attribut = attributDic[nName]
             var value:NSObject

@@ -8,6 +8,9 @@
 
 import UIKit
 
+func kScreen_W() -> CGFloat { return UIScreen.main.bounds.size.width }
+func kScreen_H() -> CGFloat { return UIScreen.main.bounds.size.height }
+
 class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
