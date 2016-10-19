@@ -13,7 +13,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="110"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <frame key="frameInset" width="375" height="109.5"/>
+                <frame key="frameInset" width="375" height="109"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wCI-Vg-576">
@@ -38,8 +38,8 @@
                         <color key="textColor" red="1" green="0.48627450979999998" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laS-a8-FTW">
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laS-a8-FTW" customClass="RatingView" customModule="SwiftTimeMovie" customModuleProvider="target">
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="32" id="7vF-OB-Avg"/>
                             <constraint firstAttribute="width" constant="174" id="GQF-oT-fWt"/>
@@ -63,6 +63,7 @@
             <connections>
                 <outlet property="imgView" destination="wCI-Vg-576" id="LCk-0p-nI2"/>
                 <outlet property="ratingLable" destination="uOs-1e-dFe" id="6je-cx-iXu"/>
+                <outlet property="ratingView" destination="laS-a8-FTW" id="cIZ-5N-SeO"/>
                 <outlet property="titleLable" destination="bem-Si-tsL" id="Orl-yg-bBN"/>
             </connections>
             <point key="canvasLocation" x="24.5" y="-30"/>

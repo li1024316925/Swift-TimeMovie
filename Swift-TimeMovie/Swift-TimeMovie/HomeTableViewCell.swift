@@ -13,6 +13,7 @@ class HomeTableViewCell: UITableViewCell {
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var titleLable: UILabel!
     @IBOutlet weak var ratingLable: UILabel!
+    @IBOutlet weak var ratingView: RatingView!
     
     //赋值完成后调用
     var homeModel:HomeModel?{
@@ -20,6 +21,20 @@ class HomeTableViewCell: UITableViewCell {
             
             titleLable.text = homeModel?.titleCn
             imgView.sd_setImage(with: URL(string: (homeModel?.img)!))
+            
+            //可选绑定
+            guard var ratingFinal = homeModel?.ratingFinal else {
+                return
+            }
+            if ratingFinal.floatValue <= 0 {
+                ratingFinal = 0
+            }
+            //富文本属性
+            let aStr = NSMutableAttributedString(string: String(format: "%.1f", arguments: [ratingFinal.floatValue]))
+            aStr.setAttributes([NSFontAttributeName:UIFont.systemFont(ofSize: 15)], range: NSRange(location: 2, length: 1))
+            
+            ratingLable.attributedText = aStr
+            ratingView.rating = CGFloat(ratingFinal.floatValue)
             
         }
     }

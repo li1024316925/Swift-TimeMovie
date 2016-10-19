@@ -10,6 +10,7 @@
 		9F37F8CC1DB5AE8600A55ACD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F8CB1DB5AE8600A55ACD /* HomeViewModel.swift */; };
 		9F37F8D11DB5BB2400A55ACD /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F8CF1DB5BB2400A55ACD /* HomeTableViewCell.swift */; };
 		9F37F8D21DB5BB2400A55ACD /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F8D01DB5BB2400A55ACD /* HomeTableViewCell.xib */; };
+		9F37F8D81DB60E5F00A55ACD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F8D71DB60E5F00A55ACD /* RatingView.swift */; };
 		9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */; };
 		9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BD11DAF5ABB0034D244 /* ViewController.swift */; };
 		9F399BD71DAF5ABB0034D244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD61DAF5ABB0034D244 /* Assets.xcassets */; };
@@ -322,6 +323,7 @@
 		9F37F8CF1DB5BB2400A55ACD /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		9F37F8D01DB5BB2400A55ACD /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		9F37F8D31DB5FF5B00A55ACD /* SwiftTimeMovie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTimeMovie-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F37F8D71DB60E5F00A55ACD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		9F399BCC1DAF5ABB0034D244 /* SwiftTimeMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTimeMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F399BD11DAF5ABB0034D244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -1126,6 +1128,7 @@
 			children = (
 				9F37F8CF1DB5BB2400A55ACD /* HomeTableViewCell.swift */,
 				9F37F8D01DB5BB2400A55ACD /* HomeTableViewCell.xib */,
+				9F37F8D71DB60E5F00A55ACD /* RatingView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1864,6 +1867,7 @@
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
 				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
 				9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */,
+				9F37F8D81DB60E5F00A55ACD /* RatingView.swift in Sources */,
 				9F4388081DB0A36B00130F5E /* MyInfoViewController.swift in Sources */,
 				9F4387FE1DB0A22100130F5E /* BaseViewController.swift in Sources */,
 				9F37F8CC1DB5AE8600A55ACD /* HomeViewModel.swift in Sources */,
