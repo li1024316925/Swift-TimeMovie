@@ -1092,9 +1092,9 @@
 		9F4387E91DB0A0A400130F5E /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9F37F8CA1DB5AE5B00A55ACD /* ViewModel */,
 				9F4387EE1DB0A14900130F5E /* Model */,
 				9F4387EF1DB0A15C00130F5E /* View */,
+				9F37F8CA1DB5AE5B00A55ACD /* ViewModel */,
 				9F4387F01DB0A16300130F5E /* Controller */,
 			);
 			name = Home;

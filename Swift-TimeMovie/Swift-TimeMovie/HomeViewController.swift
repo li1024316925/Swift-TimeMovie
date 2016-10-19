@@ -16,6 +16,7 @@ class HomeViewController: BaseViewController {
     }()
     
     var tableView:UITableView?
+    var posterView:PosterView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +43,13 @@ class HomeViewController: BaseViewController {
         tableView?.rowHeight = 110
         
         view.addSubview(tableView!)
+        
+        posterView = PosterView(frame: (tableView?.frame)!)
+        posterView?.isHidden = true
+        posterView?.dataList = dataList
+        posterView?.backgroundColor = UIColor.clear
+        
+        view.addSubview(posterView!)
         
     }
     
@@ -78,12 +86,17 @@ class HomeViewController: BaseViewController {
             
             btn.isSelected = !btn.isSelected
             flipWithView(view: btn, isLeft: true)
-            
+            navigationController?.navigationBar.alpha = 1
+            tableView?.isHidden = false
+            posterView?.isHidden = true
             
         } else {
             
             btn.isSelected = !btn.isSelected
             flipWithView(view: btn, isLeft: false)
+            navigationController?.navigationBar.alpha = 0.5
+            posterView?.isHidden = false
+            tableView?.isHidden = true
             
         }
         

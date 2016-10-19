@@ -10,9 +10,19 @@ import UIKit
 
 class PosterView: UIView {
 
+    var posterCollectionView:PosterCollectionView?
+    
+    //赋值时调用
+    var dataList:[HomeModel]?{
+        didSet{
+            posterCollectionView?.dataList = dataList
+        }
+    }
+    
     //复写初始化方法
     override init(frame: CGRect) {
         super.init(frame: frame)
+        layoutIfNeeded()
         loadSubviews()
     }
     
@@ -23,10 +33,17 @@ class PosterView: UIView {
     //加载子视图
     func loadSubviews() -> Void {
         
-        
+        createCollectionView()
         
     }
     
+    //海报视图
+    func createCollectionView() -> Void {
+        
+        posterCollectionView = PosterCollectionView(frame: CGRect.init(x: 0, y: 0, width: kScreen_W(), height: frame.size.height), itemwith: kScreen_W() - 150)
+        addSubview(posterCollectionView!)
+        
+    }
     
 
 }

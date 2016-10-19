@@ -11,7 +11,7 @@ import UIKit
 class BaseCollectionView: UICollectionView {
 
     //数据数组
-    var dataList:NSArray?
+    var dataList:[HomeModel]?
     //单元格宽度
     var itemWith:CGFloat?
     //记录下标
@@ -69,6 +69,16 @@ extension BaseCollectionView: UICollectionViewDataSource,UICollectionViewDelegat
         
         
         
+    }
+    
+    //点击单元格时调用
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+    
+    //单元格显示结束时调用
+    func collectionView(_ collectionView: UICollectionView, didEndDisplaying cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
+    
     }
 
 }
