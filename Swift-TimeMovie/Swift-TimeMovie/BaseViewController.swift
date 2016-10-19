@@ -17,6 +17,7 @@ class BaseViewController: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor(patternImage: UIImage(named: "bg_mtime_star.jpg")!)
+        
     }
 
     override func didReceiveMemoryWarning() {

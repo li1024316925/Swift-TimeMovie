@@ -26,6 +26,9 @@ class HomeViewController: BaseViewController {
         //加载视图
         createView()
         
+        //导航栏视图
+        createNaviBarItem()
+        
     }
     
     //加载视图
@@ -51,10 +54,53 @@ class HomeViewController: BaseViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //导航栏
+    func createNaviBarItem() -> Void {
+        
+        //右侧按钮
+        let rightBtn = UIButton(type: UIButtonType.custom)
+        rightBtn.frame = CGRect(x: 0, y: 0, width: 49, height: 25)
+        rightBtn.setImage(UIImage.init(named: "list_home"), for: UIControlState.normal)
+        rightBtn.setBackgroundImage(UIImage.init(named: "exchange_bg_home"), for: UIControlState.normal)
+        rightBtn.setImage(UIImage.init(named: "poster_home"), for: UIControlState.selected)
+        rightBtn.setBackgroundImage(UIImage.init(named: "exchange_bg_home"), for: UIControlState.selected)
+        //点击事件
+        rightBtn.addTarget(self, action: #selector(rightBtnAction(btn:)), for: UIControlEvents.touchUpInside)
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
+        
     }
+    
+    //导航栏右侧按钮点击事件
+    func rightBtnAction(btn: UIButton) -> Void {
+        
+        if btn.isSelected == true {
+            
+            btn.isSelected = !btn.isSelected
+            flipWithView(view: btn, isLeft: true)
+            
+            
+        } else {
+            
+            btn.isSelected = !btn.isSelected
+            flipWithView(view: btn, isLeft: false)
+            
+        }
+        
+        //翻转主界面
+        flipWithView(view: view, isLeft: !btn.isSelected)
+        
+    }
+    
+    //翻转动画
+    func flipWithView(view: UIView,isLeft: Bool) -> Void {
+        
+        UIView.animate(withDuration: 0.3) { 
+            UIView.setAnimationTransition(isLeft ? UIViewAnimationTransition.flipFromLeft : UIViewAnimationTransition.flipFromRight, for: view, cache: true)
+        }
+        
+    }
+    
 
 }
 
