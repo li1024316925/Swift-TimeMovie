@@ -10,8 +10,14 @@ import UIKit
 
 class PayTicketViewController: BaseViewController {
 
+    var tableView1:UITableView?
+    var tableView2:UITableView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "home_top_movie_background_cover")!)
+        
     }
 
     override func didReceiveMemoryWarning() {

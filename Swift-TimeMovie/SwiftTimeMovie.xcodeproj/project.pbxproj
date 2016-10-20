@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */; };
 		9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AD1DB8569B00223869 /* IndexCell.swift */; };
+		9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */; };
+		9F31A8B31DB88B5F00223869 /* HotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B21DB88B5F00223869 /* HotModel.swift */; };
+		9F31A8B51DB88B6F00223869 /* WillModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B41DB88B6F00223869 /* WillModel.swift */; };
 		9F35E7131DB704F800971490 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7121DB704F800971490 /* PosterView.swift */; };
 		9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7141DB7068E00971490 /* BaseCollectionView.swift */; };
 		9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7161DB7387600971490 /* PosterCollectionView.swift */; };
@@ -329,6 +332,9 @@
 		7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTimeMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
 		9F31A8AD1DB8569B00223869 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
+		9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
+		9F31A8B21DB88B5F00223869 /* HotModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotModel.swift; sourceTree = "<group>"; };
+		9F31A8B41DB88B6F00223869 /* WillModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillModel.swift; sourceTree = "<group>"; };
 		9F35E7121DB704F800971490 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		9F35E7141DB7068E00971490 /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		9F35E7161DB7387600971490 /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
@@ -677,6 +683,14 @@
 				D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F31A8AF1DB889A300223869 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		9F35E7111DB7045D00971490 /* PosterView */ = {
@@ -1111,6 +1125,7 @@
 			children = (
 				9F4387F31DB0A1A900130F5E /* Model */,
 				9F4387F21DB0A1A300130F5E /* View */,
+				9F31A8AF1DB889A300223869 /* ViewModel */,
 				9F4387F11DB0A19500130F5E /* Controller */,
 			);
 			name = PayTicket;
@@ -1191,6 +1206,8 @@
 		9F4387F31DB0A1A900130F5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F31A8B21DB88B5F00223869 /* HotModel.swift */,
+				9F31A8B41DB88B6F00223869 /* WillModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1889,7 +1906,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */,
+				9F31A8B31DB88B5F00223869 /* HotModel.swift in Sources */,
 				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
+				9F31A8B51DB88B6F00223869 /* WillModel.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
 				9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,

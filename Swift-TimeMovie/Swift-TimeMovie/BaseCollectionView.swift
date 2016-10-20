@@ -14,6 +14,7 @@ class BaseCollectionView: UICollectionView {
     var dataList:[HomeModel]?
     //单元格宽度
     var itemWith:CGFloat?
+    //被观察的属性，加dynamic关键字
     //记录下标
     dynamic var currentIndex:Int = 0
     

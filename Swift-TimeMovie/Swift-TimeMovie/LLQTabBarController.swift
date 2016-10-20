@@ -81,7 +81,7 @@ class LLQTabBarController: UITabBarController {
         
     }
     
-    //MARK ------ 按钮点击事件
+    //MARK: ------ 按钮点击事件
     func selectedVC(button: UIButton) -> Void {
         //修改标签控制器的本身具有的 selectedIndex 完成切换功能
         selectedIndex = button.tag - 100
