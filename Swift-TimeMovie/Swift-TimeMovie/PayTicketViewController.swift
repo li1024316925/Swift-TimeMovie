@@ -18,22 +18,38 @@ class PayTicketViewController: BaseViewController {
         
         view.backgroundColor = UIColor(patternImage: UIImage(named: "home_top_movie_background_cover")!)
         
+        //创建按钮组
+        createSegmentView()
+        
+        //创建表视图
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //创建按钮组
+    func createSegmentView() -> Void {
+        
+        let segView = SegmentView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: 50))
+        segView.titleArray = ["正在热映","即将上映"]
+        segView.selectImageName = "color_line"
+        //按钮点击
+        weak var weakSelf = self
+        segView.selectAction { (index) in
+            weakSelf!.tableViewMoveAction(index: index)
+        }
+        
+        view.addSubview(segView)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //切换表视图方法
+    func tableViewMoveAction(index: Int) -> Void {
+        
     }
-    */
+    
+    //创建表视图
+    func createTableView() -> Void {
+        
+    }
 
 }
