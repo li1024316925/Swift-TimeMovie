@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */; };
+		9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AD1DB8569B00223869 /* IndexCell.swift */; };
 		9F35E7131DB704F800971490 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7121DB704F800971490 /* PosterView.swift */; };
 		9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7141DB7068E00971490 /* BaseCollectionView.swift */; };
 		9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7161DB7387600971490 /* PosterCollectionView.swift */; };
@@ -325,6 +327,8 @@
 
 /* Begin PBXFileReference section */
 		7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTimeMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
+		9F31A8AD1DB8569B00223869 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
 		9F35E7121DB704F800971490 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		9F35E7141DB7068E00971490 /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		9F35E7161DB7387600971490 /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
@@ -683,6 +687,8 @@
 				9F35E7181DB7397900971490 /* PosterCell.swift */,
 				9F35E71A1DB739C100971490 /* DetailView.swift */,
 				9F35E71C1DB739DD00971490 /* DetailView.xib */,
+				9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */,
+				9F31A8AD1DB8569B00223869 /* IndexCell.swift */,
 			);
 			name = PosterView;
 			sourceTree = "<group>";
@@ -1885,11 +1891,13 @@
 			files = (
 				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
+				9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,
 				9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */,
 				9F35E71B1DB739C100971490 /* DetailView.swift in Sources */,
 				9F35E7191DB7397900971490 /* PosterCell.swift in Sources */,
+				9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */,
 				9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */,
 				9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */,
 				9F4388041DB0A32600130F5E /* StoreViewController.swift in Sources */,

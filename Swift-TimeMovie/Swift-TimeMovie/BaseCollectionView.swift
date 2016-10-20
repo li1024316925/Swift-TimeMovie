@@ -15,7 +15,7 @@ class BaseCollectionView: UICollectionView {
     //单元格宽度
     var itemWith:CGFloat?
     //记录下标
-    var currentIndex:Int?
+    dynamic var currentIndex:Int = 0
     
     //初始化方法
     init(frame: CGRect, itemwith: CGFloat) {
@@ -67,8 +67,18 @@ extension BaseCollectionView: UICollectionViewDataSource,UICollectionViewDelegat
     //将要结束拖动
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         
+        //横向偏移量
+        let xOffset = targetContentOffset.pointee.x
         
+        //计算当前下标
+        var index = Int((xOffset-10)/itemWith!)
+        if index >= (dataList?.count)!-1 {
+            index = (dataList?.count)! - 1
+        }
         
+        //偏移
+        targetContentOffset.pointee.x = CGFloat(index) * itemWith! + CGFloat(index * 10)
+        currentIndex = index
     }
     
     //点击单元格时调用
