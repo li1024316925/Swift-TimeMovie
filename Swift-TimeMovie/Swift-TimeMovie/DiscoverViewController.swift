@@ -12,23 +12,24 @@ class DiscoverViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = UIColor(patternImage: UIImage(named: "actor_detail_top_background.jpg")!)
+        
+        //导航栏按钮组
+        createSegmentView()
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    //按钮组
+    func createSegmentView() -> Void {
+        
+        let segmentView = SegmentView(frame: CGRect(x: 0, y: 0, width: kScreen_W(), height: 50))
+        segmentView.titleArray = ["新闻","预告片","排行榜","影评"]
+        segmentView.selectAction { (index) in
+            
+        }
+        navigationItem.titleView = segmentView
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

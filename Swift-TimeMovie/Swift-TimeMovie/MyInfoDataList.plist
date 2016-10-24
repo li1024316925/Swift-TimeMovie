@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>icon_my_cinema@2x</string>
+			<key>title</key>
+			<string>我去影院看电影</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_my_coupon@2x</string>
+			<key>title</key>
+			<string>我的优惠券</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_my_movie@2x</string>
+			<key>title</key>
+			<string>我的电影</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>icon_my_collection@2x</string>
+			<key>title</key>
+			<string>我的收藏</string>
+		</dict>
+	</array>
+	<array>
+		<string>设置</string>
+		<string>扫描二维码</string>
+		<string>意见反馈</string>
+		<string>喜欢我们，去打分</string>
+		<string>商城使用帮助</string>
+	</array>
+</array>
+</plist>

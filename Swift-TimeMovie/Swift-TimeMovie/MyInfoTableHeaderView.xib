@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MyInfoTableHeaderView" customModule="SwiftTimeMovie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EeU-v2-toe">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nl-kq-mDR">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="10i-ch-sby"/>
+                                <constraint firstAttribute="height" constant="100" id="Xq1-Xg-MuM"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="icon_avatar_not_login.png"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rT-n5-gXw">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="PWz-DR-Z5u"/>
+                                <constraint firstAttribute="width" constant="70" id="ob0-Yu-ic1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="登录" backgroundImage="icon_hot_show_buy.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTR-vV-edm">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <state key="normal" title="注册" backgroundImage="icon_change_subway@2x.png"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.93277015340000002" blue="0.18691094529999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="8nl-kq-mDR" firstAttribute="leading" secondItem="EeU-v2-toe" secondAttribute="leading" constant="26" id="1tz-pd-k87"/>
+                        <constraint firstItem="pTR-vV-edm" firstAttribute="height" secondItem="5rT-n5-gXw" secondAttribute="height" id="3pb-2v-pCa"/>
+                        <constraint firstItem="pTR-vV-edm" firstAttribute="leading" secondItem="5rT-n5-gXw" secondAttribute="trailing" constant="20" id="7Wt-xA-viS"/>
+                        <constraint firstItem="pTR-vV-edm" firstAttribute="top" secondItem="EeU-v2-toe" secondAttribute="top" constant="49" id="BgF-qZ-sBQ"/>
+                        <constraint firstItem="5rT-n5-gXw" firstAttribute="top" secondItem="EeU-v2-toe" secondAttribute="top" constant="49" id="H2g-7x-Tdw"/>
+                        <constraint firstItem="pTR-vV-edm" firstAttribute="width" secondItem="5rT-n5-gXw" secondAttribute="width" id="gqI-VH-vtq"/>
+                        <constraint firstItem="8nl-kq-mDR" firstAttribute="top" secondItem="EeU-v2-toe" secondAttribute="top" constant="17" id="txq-F9-ud2"/>
+                        <constraint firstItem="5rT-n5-gXw" firstAttribute="leading" secondItem="8nl-kq-mDR" secondAttribute="trailing" constant="25" id="wEf-Ue-kkF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eac-wE-UIc">
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVp-jS-1Tj">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="lH3-NY-EbQ"/>
+                                <constraint firstAttribute="width" constant="110" id="n8h-cB-9Cu"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-37" minY="83" maxX="4" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="36" minY="0.0" maxX="30" maxY="15"/>
+                            <state key="normal" title="电影票订单" image="icon_my_movie_order.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0tx-v5-YnF">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="6S8-au-bsy"/>
+                                <constraint firstAttribute="width" constant="110" id="mOB-09-fJ8"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-24" minY="83" maxX="22" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="31" minY="0.0" maxX="30" maxY="15"/>
+                            <state key="normal" title="购物车" image="icon_my_shopping_cart.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB3-YD-Efb">
+                            <constraints>
+                                <constraint firstAttribute="height" constant="120" id="4os-ks-fi5"/>
+                                <constraint firstAttribute="width" constant="110" id="pdu-nI-SMt"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="-31" minY="83" maxX="12" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="33" minY="0.0" maxX="30" maxY="15"/>
+                            <state key="normal" title="商品订单" image="icon_my_goods_order.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="fVp-jS-1Tj" firstAttribute="top" secondItem="eac-wE-UIc" secondAttribute="top" constant="3" id="OgC-UJ-D4Y"/>
+                        <constraint firstItem="fVp-jS-1Tj" firstAttribute="leading" secondItem="0tx-v5-YnF" secondAttribute="trailing" id="TFk-IY-S1p"/>
+                        <constraint firstItem="aB3-YD-Efb" firstAttribute="top" secondItem="eac-wE-UIc" secondAttribute="top" constant="3" id="dBW-8W-whn"/>
+                        <constraint firstItem="fVp-jS-1Tj" firstAttribute="centerX" secondItem="eac-wE-UIc" secondAttribute="centerX" id="dSO-TF-761"/>
+                        <constraint firstItem="0tx-v5-YnF" firstAttribute="top" secondItem="eac-wE-UIc" secondAttribute="top" constant="3" id="egf-4N-aCz"/>
+                        <constraint firstItem="aB3-YD-Efb" firstAttribute="leading" secondItem="fVp-jS-1Tj" secondAttribute="trailing" id="iLZ-EI-egR"/>
+                        <constraint firstAttribute="height" constant="125" id="mda-wb-cuD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EeU-v2-toe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="996-3D-J70"/>
+                <constraint firstAttribute="trailing" secondItem="EeU-v2-toe" secondAttribute="trailing" id="S6L-DO-fzY"/>
+                <constraint firstAttribute="bottom" secondItem="eac-wE-UIc" secondAttribute="bottom" id="cC5-Jf-IPb"/>
+                <constraint firstItem="EeU-v2-toe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fgG-aW-RXZ"/>
+                <constraint firstItem="eac-wE-UIc" firstAttribute="top" secondItem="EeU-v2-toe" secondAttribute="bottom" id="idG-d0-Wqd"/>
+                <constraint firstItem="eac-wE-UIc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nSe-SL-l07"/>
+                <constraint firstAttribute="trailing" secondItem="eac-wE-UIc" secondAttribute="trailing" id="ytn-ae-71X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="view" destination="EeU-v2-toe" id="u05-VJ-ccI"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_avatar_not_login.png" width="55" height="55"/>
+        <image name="icon_change_subway@2x.png" width="16" height="16"/>
+        <image name="icon_hot_show_buy.png" width="75" height="29"/>
+        <image name="icon_my_goods_order.png" width="45" height="45"/>
+        <image name="icon_my_movie_order.png" width="45" height="45"/>
+        <image name="icon_my_shopping_cart.png" width="45" height="45"/>
+    </resources>
+</document>
