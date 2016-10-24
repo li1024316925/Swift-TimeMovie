@@ -309,6 +309,13 @@
 		9F43886E1DB0B34900130F5E /* tab_bg_all@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388411DB0B34900130F5E /* tab_bg_all@2x.png */; };
 		9F43886F1DB0B34900130F5E /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388431DB0B34900130F5E /* Contents.json */; };
 		9F4388701DB0B34900130F5E /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F4388441DB0B34900130F5E /* 选中.png */; };
+		9F9BF4E31DB9A34D00124436 /* HotNowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BF4E11DB9A34D00124436 /* HotNowCell.swift */; };
+		9F9BF4E41DB9A34D00124436 /* HotNowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9BF4E21DB9A34D00124436 /* HotNowCell.xib */; };
+		9F9BF4E71DB9E1D500124436 /* WillMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BF4E51DB9E1D500124436 /* WillMovieCell.swift */; };
+		9F9BF4E81DB9E1D500124436 /* WillMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9BF4E61DB9E1D500124436 /* WillMovieCell.xib */; };
+		9F9BF4EA1DBA063300124436 /* AttentionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BF4E91DBA063300124436 /* AttentionCollectionView.swift */; };
+		9F9BF4ED1DBA09A500124436 /* AttentionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9BF4EB1DBA09A500124436 /* AttentionCell.swift */; };
+		9F9BF4EE1DBA09A500124436 /* AttentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9BF4EC1DBA09A500124436 /* AttentionCell.xib */; };
 		A144459829A634A8635032DC /* libPods-SwiftTimeMovie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */; };
 /* End PBXBuildFile section */
 
@@ -640,6 +647,13 @@
 		9F4388411DB0B34900130F5E /* tab_bg_all@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_bg_all@2x.png"; sourceTree = "<group>"; };
 		9F4388431DB0B34900130F5E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		9F4388441DB0B34900130F5E /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
+		9F9BF4E11DB9A34D00124436 /* HotNowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotNowCell.swift; sourceTree = "<group>"; };
+		9F9BF4E21DB9A34D00124436 /* HotNowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotNowCell.xib; sourceTree = "<group>"; };
+		9F9BF4E51DB9E1D500124436 /* WillMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WillMovieCell.swift; sourceTree = "<group>"; };
+		9F9BF4E61DB9E1D500124436 /* WillMovieCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WillMovieCell.xib; sourceTree = "<group>"; };
+		9F9BF4E91DBA063300124436 /* AttentionCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionCollectionView.swift; sourceTree = "<group>"; };
+		9F9BF4EB1DBA09A500124436 /* AttentionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttentionCell.swift; sourceTree = "<group>"; };
+		9F9BF4EC1DBA09A500124436 /* AttentionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttentionCell.xib; sourceTree = "<group>"; };
 		D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTimeMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie.release.xcconfig"; sourceTree = "<group>"; };
 		DC07CE95F14ABAF48D0DB139 /* Pods-SwiftTimeMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTimeMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTimeMovie/Pods-SwiftTimeMovie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1202,6 +1216,13 @@
 		9F4387F21DB0A1A300130F5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F9BF4E11DB9A34D00124436 /* HotNowCell.swift */,
+				9F9BF4E21DB9A34D00124436 /* HotNowCell.xib */,
+				9F9BF4E51DB9E1D500124436 /* WillMovieCell.swift */,
+				9F9BF4E61DB9E1D500124436 /* WillMovieCell.xib */,
+				9F9BF4E91DBA063300124436 /* AttentionCollectionView.swift */,
+				9F9BF4EB1DBA09A500124436 /* AttentionCell.swift */,
+				9F9BF4EC1DBA09A500124436 /* AttentionCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1689,6 +1710,7 @@
 				9F4387541DB09ADA00130F5E /* icon_kiosk@2x.png in Resources */,
 				9F4387D71DB09ADA00130F5E /* indexBG_home@2x.png in Resources */,
 				9F42EFEE1DB4BC3F00B4A9E1 /* image_news.json in Resources */,
+				9F9BF4EE1DBA09A500124436 /* AttentionCell.xib in Resources */,
 				9F4387781DB09ADA00130F5E /* icon_my_goods_order@3x.png in Resources */,
 				9F4387D41DB09ADA00130F5E /* index_menu_more.png in Resources */,
 				9F4387A81DB09ADA00130F5E /* icon_hot_show_quote@2x.png in Resources */,
@@ -1719,6 +1741,7 @@
 				9F4387341DB09ADA00130F5E /* payticket@2x.png in Resources */,
 				9F43877F1DB09ADA00130F5E /* icon_preview_play@2x.png in Resources */,
 				9F4387241DB09ADA00130F5E /* discover_on@3x.png in Resources */,
+				9F9BF4E81DB9E1D500124436 /* WillMovieCell.xib in Resources */,
 				9F42EFF01DB4BC3F00B4A9E1 /* newsDetail1.json in Resources */,
 				9F4387C81DB09ADA00130F5E /* home_center.png in Resources */,
 				9F4387C71DB09ADA00130F5E /* exchange_bg_home@2x.png in Resources */,
@@ -1728,6 +1751,7 @@
 				9F4387201DB09ADA00130F5E /* bg_mtime_star.jpg in Resources */,
 				9F4387861DB09ADA00130F5E /* photo_detail_share_normal.png in Resources */,
 				9F4387B91DB09ADA00130F5E /* wizard4_480@2x.jpg in Resources */,
+				9F9BF4E41DB9A34D00124436 /* HotNowCell.xib in Resources */,
 				9F43885F1DB0B34900130F5E /* pic_menu_bottom_bg.png in Resources */,
 				9F4387E71DB09ADA00130F5E /* up_home@2x.png in Resources */,
 				9F4387E61DB09ADA00130F5E /* up_home.png in Resources */,
@@ -1911,13 +1935,16 @@
 			files = (
 				9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */,
 				9F31A8B31DB88B5F00223869 /* HotModel.swift in Sources */,
+				9F9BF4E31DB9A34D00124436 /* HotNowCell.swift in Sources */,
 				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
+				9F9BF4ED1DBA09A500124436 /* AttentionCell.swift in Sources */,
 				9F31A8B51DB88B6F00223869 /* WillModel.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
 				9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,
 				9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */,
+				9F9BF4EA1DBA063300124436 /* AttentionCollectionView.swift in Sources */,
 				9F35E71B1DB739C100971490 /* DetailView.swift in Sources */,
 				9F35E7191DB7397900971490 /* PosterCell.swift in Sources */,
 				9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */,
@@ -1928,6 +1955,7 @@
 				9F4388021DB0A30100130F5E /* PayTicketViewController.swift in Sources */,
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
 				9F31A8B71DB8A1B500223869 /* SegmentView.swift in Sources */,
+				9F9BF4E71DB9E1D500124436 /* WillMovieCell.swift in Sources */,
 				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
 				9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */,
 				9F37F8D81DB60E5F00A55ACD /* RatingView.swift in Sources */,

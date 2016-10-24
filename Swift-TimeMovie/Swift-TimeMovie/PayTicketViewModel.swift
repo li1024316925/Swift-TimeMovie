@@ -27,7 +27,7 @@ class PayTicketViewModel: NSObject {
     }
     
     //即将上映数据
-    func willNewData(headData: ([WillModel])->(), bodyData: ([String:[WillModel]])->(), bodyKeys: ([String])->()) -> Void {
+    func willNewData(headData: ([WillModel])->(), bodyData: ([String:[WillModel]],Int)->(), bodyKeys: ([String])->()) -> Void {
         
         var dataArray:[WillModel] = []
         var bodyDataDic:[String:[WillModel]] = [:]
@@ -47,9 +47,8 @@ class PayTicketViewModel: NSObject {
         for dic in array2 {
             let model = WillModel(dic: dic)
             //按照月份排序
-            let key = "\(model.rMonth)"
+            let key = String(format: "%d", arguments: [(model.rMonth?.intValue)!])
             var array = bodyDataDic[key]
-            
             if array == nil {
                 var newArr:[WillModel] = []
                 newArr.append(model)
@@ -59,8 +58,9 @@ class PayTicketViewModel: NSObject {
                 bodyDataDic[key] = array
             }
         }
+        bodyData(bodyDataDic,array2.count)
         
-        let arr = bodyDataDic.keys
+        let arr = Array(bodyDataDic.keys)
         let keysArray = arr.sorted()
         bodyKeys(keysArray)
     }
