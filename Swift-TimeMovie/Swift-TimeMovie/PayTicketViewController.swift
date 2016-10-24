@@ -119,7 +119,20 @@ class PayTicketViewController: BaseViewController {
         tableView2?.rowHeight = 150
         view.addSubview(tableView2!)
         
+        //即将上映头视图
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 230))
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: kScreen_W(), height: 50))
+        label.text = "最受关注"
+        label.textColor = UIColor.white
+        label.font = UIFont.systemFont(ofSize: 20)
+        label.backgroundColor = UIColor.clear
         
+        let aHeader = AttentionCollectionView(frame: CGRect(x: 0, y: 50, width: kScreen_W(), height: 180))
+        aHeader.dataList = willHeadData
+        
+        headerView.addSubview(label)
+        headerView.addSubview(aHeader)
+        tableView2?.tableHeaderView = headerView
         
     }
 

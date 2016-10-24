@@ -23,14 +23,14 @@ class AttentionCell: UICollectionViewCell {
     var model: WillModel?{
         didSet{
             
-            time.text = "\(model?.rMonth)月\(model?.rDay)日上映"
+            time.text = "\((model?.rMonth)!)月\((model?.rDay)!)日上映"
             title.text = model?.title
             movieImage.sd_setImage(with: URL(string: (model?.image)!))
-            let aStr = NSMutableAttributedString(string: "\(model?.wantedCount)人在期待上映")
+            let aStr = NSMutableAttributedString(string: "\((model?.wantedCount)!)人在期待上映")
             aStr.setAttributes([NSForegroundColorAttributeName:UIColor.orange], range: NSRange(location: 0, length: aStr.length-7))
             count.attributedText = aStr
-            director.text = "导演：\(model?.director)"
-            actor.text = "主演：\(model?.actor1) \(model?.actor2)"
+            director.text = "导演：\((model?.director)!)"
+            actor.text = "主演：\((model?.actor1)!) \((model?.actor2)!)"
             type.text = model?.type
             
         }

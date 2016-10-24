@@ -50,7 +50,10 @@ extension AttentionCollectionView: UICollectionViewDelegate,UICollectionViewData
     //单元格
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        return UICollectionViewCell()
+        let aCell = collectionView.dequeueReusableCell(withReuseIdentifier: "attentioncell", for: indexPath) as? AttentionCell
+        aCell?.model = dataList?[indexPath.item]
+        
+        return aCell!
         
     }
     

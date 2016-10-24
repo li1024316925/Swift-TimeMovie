@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2F96781DBD959300CD9840 /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96771DBD959300CD9840 /* CinemaModel.swift */; };
 		9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */; };
 		9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AD1DB8569B00223869 /* IndexCell.swift */; };
 		9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */; };
@@ -338,6 +339,7 @@
 
 /* Begin PBXFileReference section */
 		7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTimeMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2F96771DBD959300CD9840 /* CinemaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaModel.swift; sourceTree = "<group>"; };
 		9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
 		9F31A8AD1DB8569B00223869 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
 		9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
@@ -1254,6 +1256,7 @@
 		9F4387F61DB0A1C600130F5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F2F96771DBD959300CD9840 /* CinemaModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1948,6 +1951,7 @@
 				9F35E71B1DB739C100971490 /* DetailView.swift in Sources */,
 				9F35E7191DB7397900971490 /* PosterCell.swift in Sources */,
 				9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */,
+				9F2F96781DBD959300CD9840 /* CinemaModel.swift in Sources */,
 				9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */,
 				9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */,
 				9F4388041DB0A32600130F5E /* StoreViewController.swift in Sources */,
