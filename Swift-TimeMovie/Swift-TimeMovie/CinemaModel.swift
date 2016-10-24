@@ -15,7 +15,7 @@ class CinemaModel: BaseModel {
     var minPrice:NSNumber?
     var longitude:NSNumber?
     var latitude:NSNumber?
-    var feature:NSDictionary?
+    var feature:[NSString:Int]?
     var length:Float = 0.0
     
 }

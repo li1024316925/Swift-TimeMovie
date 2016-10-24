@@ -20,9 +20,9 @@ class DetailView: UIView {
     var model:HomeModel?{
         didSet{
             movieImage.sd_setImage(with: URL(string: (model?.img)!))
-            titleCN.text = "片名:\(model?.titleCn)"
-            titleEN.text = "英文名:\(model?.titleEn)"
-            year.text = "上映时间:\(model?.rYear)"
+            titleCN.text = "片名:\((model?.titleCn)!)"
+            titleEN.text = "英文名:\((model?.titleEn)!)"
+            year.text = "上映时间:\((model?.rYear)!)"
             
             //可选绑定
             guard var ratingFinal = model?.ratingFinal else {

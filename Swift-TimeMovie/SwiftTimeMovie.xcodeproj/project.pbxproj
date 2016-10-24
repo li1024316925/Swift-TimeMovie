@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		9F2F96781DBD959300CD9840 /* CinemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96771DBD959300CD9840 /* CinemaModel.swift */; };
+		9F2F967B1DBD980F00CD9840 /* CinemaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96791DBD980F00CD9840 /* CinemaCell.swift */; };
+		9F2F967C1DBD980F00CD9840 /* CinemaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F967A1DBD980F00CD9840 /* CinemaCell.xib */; };
+		9F2F967F1DBD9F5D00CD9840 /* CinemaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F967E1DBD9F5D00CD9840 /* CinemaViewModel.swift */; };
+		9F2F96811DBDD25900CD9840 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96801DBDD25900CD9840 /* BottomView.swift */; };
 		9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */; };
 		9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AD1DB8569B00223869 /* IndexCell.swift */; };
 		9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */; };
@@ -340,6 +344,10 @@
 /* Begin PBXFileReference section */
 		7549AFFACB9DE0009F9AE02B /* libPods-SwiftTimeMovie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTimeMovie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2F96771DBD959300CD9840 /* CinemaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaModel.swift; sourceTree = "<group>"; };
+		9F2F96791DBD980F00CD9840 /* CinemaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaCell.swift; sourceTree = "<group>"; };
+		9F2F967A1DBD980F00CD9840 /* CinemaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CinemaCell.xib; sourceTree = "<group>"; };
+		9F2F967E1DBD9F5D00CD9840 /* CinemaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CinemaViewModel.swift; sourceTree = "<group>"; };
+		9F2F96801DBDD25900CD9840 /* BottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
 		9F31A8AD1DB8569B00223869 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
 		9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
@@ -701,6 +709,14 @@
 				D9D884FCCB1B16DE78DA3B68 /* Pods-SwiftTimeMovie.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F2F967D1DBD9F2E00CD9840 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F2F967E1DBD9F5D00CD9840 /* CinemaViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		9F31A8AF1DB889A300223869 /* ViewModel */ = {
@@ -1155,6 +1171,7 @@
 			children = (
 				9F4387F61DB0A1C600130F5E /* Model */,
 				9F4387F51DB0A1BF00130F5E /* View */,
+				9F2F967D1DBD9F2E00CD9840 /* ViewModel */,
 				9F4387F41DB0A1B400130F5E /* Controller */,
 			);
 			name = Store;
@@ -1249,6 +1266,9 @@
 		9F4387F51DB0A1BF00130F5E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F2F96791DBD980F00CD9840 /* CinemaCell.swift */,
+				9F2F967A1DBD980F00CD9840 /* CinemaCell.xib */,
+				9F2F96801DBDD25900CD9840 /* BottomView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1625,6 +1645,7 @@
 				9F43876C1DB09ADA00130F5E /* icon_avatar_not_login@3x.png in Resources */,
 				9F43875E1DB09ADA00130F5E /* v10_18_Feature3D@3x.png in Resources */,
 				9F4387371DB09ADA00130F5E /* payticket_on@3x.png in Resources */,
+				9F2F967C1DBD980F00CD9840 /* CinemaCell.xib in Resources */,
 				9F43874B1DB09ADA00130F5E /* gray@2x.png in Resources */,
 				9F4387921DB09ADA00130F5E /* v10_GlobalTopList@2x.png in Resources */,
 				9F4388691DB0B34900130F5E /* Contents.json in Resources */,
@@ -1942,7 +1963,10 @@
 				9F399BFE1DAF5BC40034D244 /* MainViewController.swift in Sources */,
 				9F9BF4ED1DBA09A500124436 /* AttentionCell.swift in Sources */,
 				9F31A8B51DB88B6F00223869 /* WillModel.swift in Sources */,
+				9F2F967B1DBD980F00CD9840 /* CinemaCell.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
+				9F2F96811DBDD25900CD9840 /* BottomView.swift in Sources */,
+				9F2F967F1DBD9F5D00CD9840 /* CinemaViewModel.swift in Sources */,
 				9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,

@@ -28,7 +28,10 @@ class BaseModel: NSObject {
             let ivarName = ivar_getName(ivar!)
             let nName = String(cString: ivarName!)
             //取出要赋值的值
-            let attribut = attributDic[nName]
+            var attribut = attributDic[nName]
+            if attribut == nil{
+                attribut = ""
+            }
             var value:NSObject
             if dic[attribut!] != nil {
                 value = dic[attribut!] as! NSObject
