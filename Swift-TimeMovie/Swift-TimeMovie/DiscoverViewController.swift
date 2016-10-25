@@ -32,6 +32,9 @@ class DiscoverViewController: BaseViewController {
         //新闻
         createNewsView()
         
+        //预告
+        createTrailerView()
+        
     }
     
     //新闻
@@ -44,6 +47,13 @@ class DiscoverViewController: BaseViewController {
             weakSelf!.newsView?.dataList = data
         }
         view.addSubview(newsView!)
+        
+    }
+    
+    //预告
+    func createTrailerView() -> Void {
+        
+        
         
     }
 
