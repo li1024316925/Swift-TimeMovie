@@ -16,6 +16,8 @@ class DiscoverViewController: BaseViewController {
     var trailerView:TrailerView?
     //排行榜
     var topListView:TopListView?
+    //评论
+    var criticismView:CriticismView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,11 +89,12 @@ class DiscoverViewController: BaseViewController {
     //影评
     func createCriticismView() -> Void {
         
+        criticismView = CriticismView(frame: CGRect(x: 3*kScreen_W(), y: 0, width: kScreen_W(), height: kScreen_H()-60-50))
+        weak var weakSelf = self
         DiscoverViewModel().criticismData { (data) in
-            
-            print(data)
-            
+            weakSelf!.criticismView?.dataList = data
         }
+        view.addSubview(criticismView!)
         
     }
 
@@ -118,6 +121,7 @@ class DiscoverViewController: BaseViewController {
             weakSelf!.newsView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
             weakSelf!.trailerView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
             weakSelf!.topListView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
+            weakSelf!.criticismView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
             
         }
         

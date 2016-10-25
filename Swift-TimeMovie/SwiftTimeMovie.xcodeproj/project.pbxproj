@@ -39,6 +39,8 @@
 		9F33D45A1DBF2856009ABF70 /* TopListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */; };
 		9F33D45C1DBF286E009ABF70 /* TopListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */; };
 		9F33D45E1DBF31FD009ABF70 /* CriticismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */; };
+		9F33D4611DBF3559009ABF70 /* CriticismCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D45F1DBF3559009ABF70 /* CriticismCell.swift */; };
+		9F33D4621DBF3559009ABF70 /* CriticismCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D4601DBF3559009ABF70 /* CriticismCell.xib */; };
 		9F35E7131DB704F800971490 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7121DB704F800971490 /* PosterView.swift */; };
 		9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7141DB7068E00971490 /* BaseCollectionView.swift */; };
 		9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7161DB7387600971490 /* PosterCollectionView.swift */; };
@@ -396,6 +398,8 @@
 		9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListHeaderView.swift; sourceTree = "<group>"; };
 		9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopListHeaderView.xib; sourceTree = "<group>"; };
 		9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismView.swift; sourceTree = "<group>"; };
+		9F33D45F1DBF3559009ABF70 /* CriticismCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismCell.swift; sourceTree = "<group>"; };
+		9F33D4601DBF3559009ABF70 /* CriticismCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CriticismCell.xib; sourceTree = "<group>"; };
 		9F35E7121DB704F800971490 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		9F35E7141DB7068E00971490 /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		9F35E7161DB7387600971490 /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
@@ -786,6 +790,8 @@
 				9F33D44F1DBF0208009ABF70 /* TrailerCell.xib */,
 				9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */,
 				9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */,
+				9F33D45F1DBF3559009ABF70 /* CriticismCell.swift */,
+				9F33D4601DBF3559009ABF70 /* CriticismCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -1741,6 +1747,7 @@
 				9F43878E1DB09ADA00130F5E /* pic_movielist_pressed.9.png in Resources */,
 				9F4388581DB0B34900130F5E /* Contents.json in Resources */,
 				9F4388661DB0B34900130F5E /* Contents.json in Resources */,
+				9F33D4621DBF3559009ABF70 /* CriticismCell.xib in Resources */,
 				9F43884F1DB0B34900130F5E /* Contents.json in Resources */,
 				9F4387B31DB09ADA00130F5E /* wizard1_480@2x.jpg in Resources */,
 				9F399BDA1DAF5ABB0034D244 /* LaunchScreen.storyboard in Resources */,
@@ -2081,6 +2088,7 @@
 				9F33D45A1DBF2856009ABF70 /* TopListHeaderView.swift in Sources */,
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
 				9F31A8B71DB8A1B500223869 /* SegmentView.swift in Sources */,
+				9F33D4611DBF3559009ABF70 /* CriticismCell.swift in Sources */,
 				9F9BF4E71DB9E1D500124436 /* WillMovieCell.swift in Sources */,
 				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
 				9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */,
