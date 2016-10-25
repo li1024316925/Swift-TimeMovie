@@ -20,7 +20,7 @@
 		9F2F968E1DBDFAAB00CD9840 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F968D1DBDFAAB00CD9840 /* NewsModel.swift */; };
 		9F2F96901DBDFBA900CD9840 /* TrailerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F968F1DBDFBA900CD9840 /* TrailerModel.swift */; };
 		9F2F96921DBDFC4600CD9840 /* TopListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96911DBDFC4600CD9840 /* TopListModel.swift */; };
-		9F2F96941DBDFCB600CD9840 /* NewsDatailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96931DBDFCB600CD9840 /* NewsDatailsModel.swift */; };
+		9F2F96941DBDFCB600CD9840 /* CriticismModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F96931DBDFCB600CD9840 /* CriticismModel.swift */; };
 		9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */; };
 		9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8AD1DB8569B00223869 /* IndexCell.swift */; };
 		9F31A8B11DB889F500223869 /* PayTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */; };
@@ -34,6 +34,11 @@
 		9F33D4501DBF0208009ABF70 /* TrailerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D44E1DBF0208009ABF70 /* TrailerCell.swift */; };
 		9F33D4511DBF0208009ABF70 /* TrailerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D44F1DBF0208009ABF70 /* TrailerCell.xib */; };
 		9F33D4531DBF0D49009ABF70 /* UIView+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4521DBF0D49009ABF70 /* UIView+ViewController.swift */; };
+		9F33D4561DBF10C6009ABF70 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4551DBF10C6009ABF70 /* TrailerViewController.swift */; };
+		9F33D4581DBF24D5009ABF70 /* TopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4571DBF24D5009ABF70 /* TopListView.swift */; };
+		9F33D45A1DBF2856009ABF70 /* TopListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */; };
+		9F33D45C1DBF286E009ABF70 /* TopListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */; };
+		9F33D45E1DBF31FD009ABF70 /* CriticismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */; };
 		9F35E7131DB704F800971490 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7121DB704F800971490 /* PosterView.swift */; };
 		9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7141DB7068E00971490 /* BaseCollectionView.swift */; };
 		9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7161DB7387600971490 /* PosterCollectionView.swift */; };
@@ -372,7 +377,7 @@
 		9F2F968D1DBDFAAB00CD9840 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		9F2F968F1DBDFBA900CD9840 /* TrailerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerModel.swift; sourceTree = "<group>"; };
 		9F2F96911DBDFC4600CD9840 /* TopListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListModel.swift; sourceTree = "<group>"; };
-		9F2F96931DBDFCB600CD9840 /* NewsDatailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDatailsModel.swift; sourceTree = "<group>"; };
+		9F2F96931DBDFCB600CD9840 /* CriticismModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismModel.swift; sourceTree = "<group>"; };
 		9F31A8AB1DB8567000223869 /* IndexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCollectionView.swift; sourceTree = "<group>"; };
 		9F31A8AD1DB8569B00223869 /* IndexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexCell.swift; sourceTree = "<group>"; };
 		9F31A8B01DB889F500223869 /* PayTicketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayTicketViewModel.swift; sourceTree = "<group>"; };
@@ -386,6 +391,11 @@
 		9F33D44E1DBF0208009ABF70 /* TrailerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerCell.swift; sourceTree = "<group>"; };
 		9F33D44F1DBF0208009ABF70 /* TrailerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrailerCell.xib; sourceTree = "<group>"; };
 		9F33D4521DBF0D49009ABF70 /* UIView+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ViewController.swift"; sourceTree = "<group>"; };
+		9F33D4551DBF10C6009ABF70 /* TrailerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
+		9F33D4571DBF24D5009ABF70 /* TopListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListView.swift; sourceTree = "<group>"; };
+		9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopListHeaderView.swift; sourceTree = "<group>"; };
+		9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopListHeaderView.xib; sourceTree = "<group>"; };
+		9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismView.swift; sourceTree = "<group>"; };
 		9F35E7121DB704F800971490 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		9F35E7141DB7068E00971490 /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		9F35E7161DB7387600971490 /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
@@ -774,6 +784,8 @@
 				9F33D4491DBEE0E5009ABF70 /* NewsCell.xib */,
 				9F33D44E1DBF0208009ABF70 /* TrailerCell.swift */,
 				9F33D44F1DBF0208009ABF70 /* TrailerCell.xib */,
+				9F33D4591DBF2856009ABF70 /* TopListHeaderView.swift */,
+				9F33D45B1DBF286E009ABF70 /* TopListHeaderView.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -1338,6 +1350,7 @@
 			isa = PBXGroup;
 			children = (
 				9F4388051DB0A35A00130F5E /* DiscoverViewController.swift */,
+				9F33D4551DBF10C6009ABF70 /* TrailerViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1348,6 +1361,8 @@
 				9F33D4471DBEE02F009ABF70 /* Cell */,
 				9F33D4451DBEDD7A009ABF70 /* NewsView.swift */,
 				9F33D44C1DBF017C009ABF70 /* TrailerView.swift */,
+				9F33D4571DBF24D5009ABF70 /* TopListView.swift */,
+				9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1358,7 +1373,7 @@
 				9F2F968D1DBDFAAB00CD9840 /* NewsModel.swift */,
 				9F2F968F1DBDFBA900CD9840 /* TrailerModel.swift */,
 				9F2F96911DBDFC4600CD9840 /* TopListModel.swift */,
-				9F2F96931DBDFCB600CD9840 /* NewsDatailsModel.swift */,
+				9F2F96931DBDFCB600CD9840 /* CriticismModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1825,6 +1840,7 @@
 				9F4387431DB09ADA00130F5E /* tab_bg_all.png in Resources */,
 				9F4387A01DB09ADA00130F5E /* icon_hot_show_buy@2x.png in Resources */,
 				9F4387DC1DB09ADA00130F5E /* movie_home.png in Resources */,
+				9F33D45C1DBF286E009ABF70 /* TopListHeaderView.xib in Resources */,
 				9F4387BF1DB09ADA00130F5E /* wizard3_1096.jpg in Resources */,
 				9F4387A91DB09ADA00130F5E /* icon_hot_show_quote@3x.png in Resources */,
 				9F4387971DB09ADA00130F5E /* commentMsgBg.png in Resources */,
@@ -2039,8 +2055,10 @@
 				9F2F967B1DBD980F00CD9840 /* CinemaCell.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
 				9F2F96811DBDD25900CD9840 /* BottomView.swift in Sources */,
+				9F33D45E1DBF31FD009ABF70 /* CriticismView.swift in Sources */,
 				9F2F967F1DBD9F5D00CD9840 /* CinemaViewModel.swift in Sources */,
 				9F31A8AE1DB8569B00223869 /* IndexCell.swift in Sources */,
+				9F33D4561DBF10C6009ABF70 /* TrailerViewController.swift in Sources */,
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F2F968C1DBDFA4800CD9840 /* DiscoverViewModel.swift in Sources */,
 				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,
@@ -2056,16 +2074,18 @@
 				9F2F96901DBDFBA900CD9840 /* TrailerModel.swift in Sources */,
 				9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */,
 				9F4388041DB0A32600130F5E /* StoreViewController.swift in Sources */,
+				9F33D4581DBF24D5009ABF70 /* TopListView.swift in Sources */,
 				9F2F968E1DBDFAAB00CD9840 /* NewsModel.swift in Sources */,
 				9F42EF8C1DB44F7900B4A9E1 /* BaseModel.swift in Sources */,
 				9F4388021DB0A30100130F5E /* PayTicketViewController.swift in Sources */,
+				9F33D45A1DBF2856009ABF70 /* TopListHeaderView.swift in Sources */,
 				9F4388001DB0A2CC00130F5E /* HomeViewController.swift in Sources */,
 				9F31A8B71DB8A1B500223869 /* SegmentView.swift in Sources */,
 				9F9BF4E71DB9E1D500124436 /* WillMovieCell.swift in Sources */,
 				9F42EF921DB4816900B4A9E1 /* CoreDataFromJson.swift in Sources */,
 				9F42EFFD1DB4BD0500B4A9E1 /* HomeModel.swift in Sources */,
 				9F37F8D81DB60E5F00A55ACD /* RatingView.swift in Sources */,
-				9F2F96941DBDFCB600CD9840 /* NewsDatailsModel.swift in Sources */,
+				9F2F96941DBDFCB600CD9840 /* CriticismModel.swift in Sources */,
 				9F4388081DB0A36B00130F5E /* MyInfoViewController.swift in Sources */,
 				9F4387FE1DB0A22100130F5E /* BaseViewController.swift in Sources */,
 				9F37F8CC1DB5AE8600A55ACD /* HomeViewModel.swift in Sources */,

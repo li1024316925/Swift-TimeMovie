@@ -59,6 +59,7 @@
                     <constraint firstItem="w4H-Lc-hUv" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="nhL-uY-UaU"/>
                 </constraints>
             </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="movieImage" destination="gsD-G9-aed" id="8vv-2t-Obu"/>
                 <outlet property="title" destination="w4H-Lc-hUv" id="oSM-1I-esh"/>

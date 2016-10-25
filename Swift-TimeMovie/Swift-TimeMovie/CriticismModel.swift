@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NewsDatailsModel: BaseModel {
+class CriticismModel: BaseModel {
 
     var nickname:String?
     var userImage:String?

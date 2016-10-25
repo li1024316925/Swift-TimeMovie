@@ -98,7 +98,13 @@ extension TrailerView:UITableViewDelegate,UITableViewDataSource{
     //点击单元格时调用
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        //创建VC
+        let trailerVC = TrailerViewController()
+        trailerVC.model = dataList?[indexPath.row+1]
+        //隐藏标签栏
+        trailerVC.hidesBottomBarWhenPushed = true
         
+        viewController()?.navigationController?.pushViewController(trailerVC, animated: true)
         
     }
     

@@ -12,6 +12,10 @@ class DiscoverViewController: BaseViewController {
 
     //新闻视图
     var newsView:NewsView?
+    //预告片
+    var trailerView:TrailerView?
+    //排行榜
+    var topListView:TopListView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +39,12 @@ class DiscoverViewController: BaseViewController {
         //预告
         createTrailerView()
         
+        //排行榜
+        createTopListView()
+        
+        //影评
+        createCriticismView()
+        
     }
     
     //新闻
@@ -53,7 +63,35 @@ class DiscoverViewController: BaseViewController {
     //预告
     func createTrailerView() -> Void {
         
+        trailerView = TrailerView(frame: CGRect(x: kScreen_W(), y: 0, width: kScreen_W(), height: kScreen_H()-60-50))
+        weak var weakSelf = self
+        DiscoverViewModel().trailersData { (data) in
+            weakSelf!.trailerView?.dataList = data
+        }
+        view.addSubview(trailerView!)
         
+    }
+    
+    //排行榜
+    func createTopListView() -> Void {
+        
+        topListView = TopListView(frame: CGRect(x: 2*kScreen_W(), y: 0, width: kScreen_W(), height: kScreen_H()-60-50))
+        weak var weakSelf = self
+        DiscoverViewModel().topListData { (data) in
+            weakSelf!.topListView?.dataList = data
+        }
+        view.addSubview(topListView!)
+        
+    }
+    
+    //影评
+    func createCriticismView() -> Void {
+        
+        DiscoverViewModel().criticismData { (data) in
+            
+            print(data)
+            
+        }
         
     }
 
@@ -62,10 +100,26 @@ class DiscoverViewController: BaseViewController {
         
         let segmentView = SegmentView(frame: CGRect(x: 0, y: 0, width: kScreen_W(), height: 50))
         segmentView.titleArray = ["新闻","预告片","排行榜","影评"]
+        //点击方法
+        weak var weakSelf = self
         segmentView.selectAction { (index) in
-            
+            weakSelf!.viewMoveAction(index: index)
         }
         navigationItem.titleView = segmentView
+        
+    }
+    
+    //切换视图方法
+    func viewMoveAction(index: Int) -> Void {
+        
+        weak var weakSelf = self
+        UIView.animate(withDuration: 0.3) { 
+            
+            weakSelf!.newsView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
+            weakSelf!.trailerView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
+            weakSelf!.topListView?.transform = CGAffineTransform(translationX: -kScreen_W()*CGFloat(index), y: 0)
+            
+        }
         
     }
     
