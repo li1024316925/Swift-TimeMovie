@@ -16,7 +16,7 @@ class NewsModel: BaseModel {
     var summary:String?
     var summaryInfo:String?
     var tag:String?
-    var images:[String]?
+    var images:NSArray?
     var type:NSNumber?
     var publishTime:NSNumber?
     var commentCount:NSNumber?

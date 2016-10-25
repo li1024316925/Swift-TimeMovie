@@ -29,4 +29,12 @@ class DiscoverViewModel: NSObject {
         
     }
     
+//    //预告数据
+//    func trailersData() -> Void {
+//        
+//        var dataArr:[TrailerModel] = []
+//        
+//        
+//    }
+    
 }
