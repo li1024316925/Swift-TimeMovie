@@ -16,7 +16,11 @@ class PayTicketViewModel: NSObject {
         var dataArray:[HotModel] = []
         
         let dataDic = CoreDataFromJson.jsonObjectFromFileName(fileName: "buy_now")
-        let array = dataDic?["ms"] as! [[String:Any]]
+        //可选绑定
+        guard let dictionary = dataDic else {
+            return
+        }
+        let array = dictionary["ms"] as! [[String:Any]]
         for dic in array {
             let model = HotModel(dic: dic)
             dataArray.append(model)
@@ -33,8 +37,12 @@ class PayTicketViewModel: NSObject {
         var bodyDataDic:[String:[WillModel]] = [:]
         
         let dataDic = CoreDataFromJson.jsonObjectFromFileName(fileName: "buy_new")
-        let array1 = dataDic?["attention"] as! [[String:Any]]
-        let array2 = dataDic?["moviecomings"] as! [[String:Any]]
+        //可选绑定
+        guard let dictionary = dataDic else {
+            return
+        }
+        let array1 = dictionary["attention"] as! [[String:Any]]
+        let array2 = dictionary["moviecomings"] as! [[String:Any]]
         
         //头视图数据
         for dic in array1 {

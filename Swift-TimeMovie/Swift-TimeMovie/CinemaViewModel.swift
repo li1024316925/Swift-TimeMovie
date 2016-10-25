@@ -16,7 +16,11 @@ class CinemaViewModel: NSObject {
     func loadCinemaData(data: (([CinemaModel])->())?) -> Void {
         
         let array = CoreDataFromJson.jsonObjectFromFileNameToArray(fileName: "cinema")
-        for dic in array! {
+        //可选绑定
+        guard let arr = array else {
+            return
+        }
+        for dic in arr {
             let model = CinemaModel(dic: dic as! [String:Any])
             model.length = compers(model: model)
             dataArr.append(model)
