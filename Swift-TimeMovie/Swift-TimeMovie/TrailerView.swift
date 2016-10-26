@@ -67,7 +67,24 @@ class TrailerView: UIView {
         textLabel.textAlignment = NSTextAlignment.center
         headerView?.addSubview(textLabel)
         
+        //添加一个点击事件
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapAction(tap:)))
+        view.addGestureRecognizer(tap)
+        
         trailerTableView?.tableHeaderView = view
+        
+    }
+    
+    //表头视图点击事件
+    func tapAction(tap: UITapGestureRecognizer) -> Void {
+        
+        //创建VC
+        let trailerVC = TrailerViewController()
+        trailerVC.model = dataList?[0]
+        //隐藏标签栏
+        trailerVC.hidesBottomBarWhenPushed = true
+        
+        viewController()?.navigationController?.pushViewController(trailerVC, animated: true)
         
     }
     

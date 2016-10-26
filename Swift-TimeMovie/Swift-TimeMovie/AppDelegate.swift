@@ -20,7 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = MainViewController()
+        //判断是否为第一次打开
+        let first = UserDefaults.standard.bool(forKey: "isFirst")
+        if first == false {
+            //第一次打开，展示广告
+            window?.rootViewController = FirstViewController()
+            UserDefaults.standard.set(true, forKey: "isFirst")
+        } else {
+            //不是第一次，展示主页面
+            window?.rootViewController = MainViewController()
+        }
         
         return true
     }

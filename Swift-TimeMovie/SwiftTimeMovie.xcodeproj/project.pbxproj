@@ -41,6 +41,9 @@
 		9F33D45E1DBF31FD009ABF70 /* CriticismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */; };
 		9F33D4611DBF3559009ABF70 /* CriticismCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D45F1DBF3559009ABF70 /* CriticismCell.swift */; };
 		9F33D4621DBF3559009ABF70 /* CriticismCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D4601DBF3559009ABF70 /* CriticismCell.xib */; };
+		9F33D4641DBF4AF9009ABF70 /* ADView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4631DBF4AF9009ABF70 /* ADView.swift */; };
+		9F33D4671DBF56D0009ABF70 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33D4651DBF56D0009ABF70 /* FirstViewController.swift */; };
+		9F33D4681DBF56D0009ABF70 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F33D4661DBF56D0009ABF70 /* FirstViewController.xib */; };
 		9F35E7131DB704F800971490 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7121DB704F800971490 /* PosterView.swift */; };
 		9F35E7151DB7068E00971490 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7141DB7068E00971490 /* BaseCollectionView.swift */; };
 		9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F35E7161DB7387600971490 /* PosterCollectionView.swift */; };
@@ -52,7 +55,6 @@
 		9F37F8D21DB5BB2400A55ACD /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F8D01DB5BB2400A55ACD /* HomeTableViewCell.xib */; };
 		9F37F8D81DB60E5F00A55ACD /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F8D71DB60E5F00A55ACD /* RatingView.swift */; };
 		9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */; };
-		9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BD11DAF5ABB0034D244 /* ViewController.swift */; };
 		9F399BD71DAF5ABB0034D244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD61DAF5ABB0034D244 /* Assets.xcassets */; };
 		9F399BDA1DAF5ABB0034D244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F399BD81DAF5ABB0034D244 /* LaunchScreen.storyboard */; };
 		9F399BE51DAF5ABB0034D244 /* Swift_TimeMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F399BE41DAF5ABB0034D244 /* Swift_TimeMovieTests.swift */; };
@@ -400,6 +402,9 @@
 		9F33D45D1DBF31FD009ABF70 /* CriticismView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismView.swift; sourceTree = "<group>"; };
 		9F33D45F1DBF3559009ABF70 /* CriticismCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriticismCell.swift; sourceTree = "<group>"; };
 		9F33D4601DBF3559009ABF70 /* CriticismCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CriticismCell.xib; sourceTree = "<group>"; };
+		9F33D4631DBF4AF9009ABF70 /* ADView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADView.swift; sourceTree = "<group>"; };
+		9F33D4651DBF56D0009ABF70 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9F33D4661DBF56D0009ABF70 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		9F35E7121DB704F800971490 /* PosterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		9F35E7141DB7068E00971490 /* BaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
 		9F35E7161DB7387600971490 /* PosterCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterCollectionView.swift; sourceTree = "<group>"; };
@@ -413,7 +418,6 @@
 		9F37F8D71DB60E5F00A55ACD /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		9F399BCC1DAF5ABB0034D244 /* SwiftTimeMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTimeMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F399BD11DAF5ABB0034D244 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F399BD61DAF5ABB0034D244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F399BD91DAF5ABB0034D244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F399BDB1DAF5ABB0034D244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -845,7 +849,9 @@
 			children = (
 				9F399BCF1DAF5ABB0034D244 /* AppDelegate.swift */,
 				9F399BFD1DAF5BC40034D244 /* MainViewController.swift */,
-				9F399BD11DAF5ABB0034D244 /* ViewController.swift */,
+				9F33D4651DBF56D0009ABF70 /* FirstViewController.swift */,
+				9F33D4661DBF56D0009ABF70 /* FirstViewController.xib */,
+				9F33D4631DBF4AF9009ABF70 /* ADView.swift */,
 				9F399BFF1DAF5F750034D244 /* Base */,
 				9F4387E81DB0A08E00130F5E /* Main */,
 				9F399BD61DAF5ABB0034D244 /* Assets.xcassets */,
@@ -1929,6 +1935,7 @@
 				9F4388561DB0B34900130F5E /* myinfo_on@2x.png in Resources */,
 				9F4387901DB09ADA00130F5E /* v10_ChineseTop100@2x.png in Resources */,
 				9F33D44B1DBEE0E5009ABF70 /* NewsCell.xib in Resources */,
+				9F33D4681DBF56D0009ABF70 /* FirstViewController.xib in Resources */,
 				9F43874C1DB09ADA00130F5E /* yellow@2x.png in Resources */,
 				9F4387DA1DB09ADA00130F5E /* list_home.png in Resources */,
 				9F43877B1DB09ADA00130F5E /* icon_my_movie_order@2x.png in Resources */,
@@ -2059,6 +2066,7 @@
 				9F2F96921DBDFC4600CD9840 /* TopListModel.swift in Sources */,
 				9F33D4531DBF0D49009ABF70 /* UIView+ViewController.swift in Sources */,
 				9F31A8B51DB88B6F00223869 /* WillModel.swift in Sources */,
+				9F33D4641DBF4AF9009ABF70 /* ADView.swift in Sources */,
 				9F2F967B1DBD980F00CD9840 /* CinemaCell.swift in Sources */,
 				9F35E7171DB7387600971490 /* PosterCollectionView.swift in Sources */,
 				9F2F96811DBDD25900CD9840 /* BottomView.swift in Sources */,
@@ -2069,12 +2077,12 @@
 				9F399C011DAF60170034D244 /* BaseNavViewController.swift in Sources */,
 				9F2F968C1DBDFA4800CD9840 /* DiscoverViewModel.swift in Sources */,
 				9F399C031DAF66490034D244 /* LLQTabBarController.swift in Sources */,
-				9F399BD21DAF5ABB0034D244 /* ViewController.swift in Sources */,
 				9F9BF4EA1DBA063300124436 /* AttentionCollectionView.swift in Sources */,
 				9F35E71B1DB739C100971490 /* DetailView.swift in Sources */,
 				9F33D44A1DBEE0E5009ABF70 /* NewsCell.swift in Sources */,
 				9F35E7191DB7397900971490 /* PosterCell.swift in Sources */,
 				9F31A8AC1DB8567000223869 /* IndexCollectionView.swift in Sources */,
+				9F33D4671DBF56D0009ABF70 /* FirstViewController.swift in Sources */,
 				9F2F96781DBD959300CD9840 /* CinemaModel.swift in Sources */,
 				9F399BD01DAF5ABB0034D244 /* AppDelegate.swift in Sources */,
 				9F2F96871DBDECE500CD9840 /* MyInfoTableHeaderView.swift in Sources */,
